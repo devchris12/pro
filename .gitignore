@@ -1,0 +1,23 @@
+node_modules/
+.next/
+out/
+build/
+.env
+.env.*
+.env*.local
+.pnpm-debug.log
+CLAUDE.md
+CLAUDE.local.md
+HANDOVER.md
+MVP.md
+MAGBYTE_CLAUDE_SETUP.md
+magbyte_claude_setup.md
+SKILLS.md
+# Claude Code — keep local config private, share project skills and commands
+.claude/settings.json
+.claude/settings.local.json
+.claude/hooks/
+.claude/homunculus/
+.mcp.json
+tsconfig.tsbuildinfo
+*.tsbuildinfo

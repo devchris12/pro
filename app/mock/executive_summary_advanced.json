@@ -1,0 +1,512 @@
+{
+  "tier": "advanced",
+  "period_filter": "all",
+  "data_quality": {
+    "has_issues": true,
+    "issue_count": 1,
+    "issues": [
+      {
+        "message": "Net profit is \u20a6-3,080,000 \u2014 your expenses (\u20a67.00M) exceed gross profit. Profit margin: -12.0%. Review the Amount column in your Expenses sheet. Largest categories: NEPA, Maintenance, Salary.",
+        "table": "Expenses",
+        "column": "Amount",
+        "row_refs": [
+          "NEPA",
+          "Maintenance",
+          "Salary"
+        ],
+        "severity": "error"
+      }
+    ],
+    "pct_clean": 100.0
+  },
+  "health_score": {
+    "score": 54,
+    "delta_pts": -9.0,
+    "delta_label": "-9 pts vs previous 30d",
+    "label": "Needs Attention",
+    "colour": "amber",
+    "based_on": "Rolling last 30 days (revenue); full-period (margins, staff, stock, customers)",
+    "components": [
+      {
+        "name": "Revenue Growth",
+        "weight": "18%",
+        "raw": 0.0,
+        "pts": 0.0,
+        "max_pts": 18.0,
+        "detail": "-22.2% revenue growth last 30d  (\u20a61.65M vs \u20a62.12M)",
+        "colour": "red"
+      },
+      {
+        "name": "Net Profit Margin",
+        "weight": "18%",
+        "raw": 35.0,
+        "pts": 6.3,
+        "max_pts": 18.0,
+        "detail": "-12.0% net profit margin (after all expenses)",
+        "colour": "amber"
+      },
+      {
+        "name": "Expense Control",
+        "weight": "14%",
+        "raw": 91.3,
+        "pts": 12.8,
+        "max_pts": 14.0,
+        "detail": "Expenses are 26.9% of gross revenue",
+        "colour": "green"
+      },
+      {
+        "name": "Customer Retention",
+        "weight": "14%",
+        "raw": 77.6,
+        "pts": 10.9,
+        "max_pts": 14.0,
+        "detail": "70.0% retention rate  |  90.0% repeat purchase rate  |  41 churned",
+        "colour": "green"
+      },
+      {
+        "name": "Stock Health",
+        "weight": "14%",
+        "raw": 50.0,
+        "pts": 7.0,
+        "max_pts": 14.0,
+        "detail": "Could not compute",
+        "colour": "amber"
+      },
+      {
+        "name": "Staff Performance",
+        "weight": "12%",
+        "raw": 100.0,
+        "pts": 12.0,
+        "max_pts": 12.0,
+        "detail": "108.0% target achievement  |  30 active staff",
+        "colour": "green"
+      },
+      {
+        "name": "Forecast Accuracy",
+        "weight": "10%",
+        "raw": 50.0,
+        "pts": 5.0,
+        "max_pts": 10.0,
+        "detail": "No prior forecast to evaluate (first run - neutral score)",
+        "colour": "amber"
+      }
+    ],
+    "data_completeness": {
+      "pct_clean": 100.0,
+      "has_issues": true,
+      "issue_count": 1,
+      "badge": "Score based on 100.0% of your data"
+    }
+  },
+  "comparison": {
+    "period_label": "Full period",
+    "current_label": "Full dataset",
+    "prev_label": null,
+    "revenue_current": 26000000.0,
+    "revenue_prev": null,
+    "revenue_delta_pct": null,
+    "orders_current": 700,
+    "orders_prev": null,
+    "orders_delta_pct": null,
+    "has_comparison": false
+  },
+  "vital_signs": {
+    "revenue": {
+      "label": "Gross Revenue",
+      "value": "\u20a626.00M",
+      "sub": "Full period \u00b7 -12.0% net margin",
+      "delta": "-12.0% net margin \u00b7 full period",
+      "sentiment": "red"
+    },
+    "net_profit": {
+      "label": "Net Profit",
+      "value": "\u20a6-3,080,000",
+      "sub": "After \u20a67.00M total expenses",
+      "delta": "-12.0% net margin - loss position",
+      "sentiment": "red"
+    },
+    "top_product": {
+      "label": "Top Product",
+      "value": "Product 12",
+      "sub": "\u20a61.63M revenue",
+      "delta": "6.3% of total revenue",
+      "sentiment": "green"
+    },
+    "biggest_risk": {
+      "label": "Biggest Risk",
+      "value": "-",
+      "sub": "",
+      "delta": "",
+      "sentiment": "amber"
+    },
+    "staff_performance": {
+      "label": "Staff Performance",
+      "value": "108%",
+      "sub": "30 staff \u00b7 top branch: Ikeja Branch",
+      "delta": "\u20a611.01M revenue from Ikeja Branch",
+      "sentiment": "green"
+    },
+    "customers": {
+      "label": "Customers",
+      "value": "138",
+      "sub": "90.0% repeat purchase rate",
+      "delta": "70.0% retention \u00b7 41 churned",
+      "sentiment": "green"
+    },
+    "overall_trend": {
+      "label": "Overall Trend",
+      "value": "\u2198 Declining",
+      "sub": "Rolling last 30 days",
+      "delta": "-22.2% vs prior 30d",
+      "sentiment": "red",
+      "trend_pct": -22.2
+    }
+  },
+  "forecast_insight": {
+    "current_month": null,
+    "next_forecast": {
+      "month": "Dec 2025",
+      "forecast_value": 60000.0,
+      "forecast_fmt": "\u20a660.0K",
+      "vs_last_actual": "\u20a61.59M",
+      "direction": "down",
+      "growth_pct": "+-0.0%",
+      "reliable": true,
+      "narrative": "MagByte forecasts \u20a660.0K in revenue for Dec 2025 - down \u20a61.59M from your most recent completed month."
+    },
+    "accuracy": {
+      "status": "no_log",
+      "forecast_month": null,
+      "forecast_value": null,
+      "actual_value": null,
+      "error_pct": null,
+      "accuracy_pct": null,
+      "accuracy_label": "No prior forecast",
+      "score_pct": 0.5,
+      "narrative": "No previous forecast to compare yet. MagByte will start tracking from this run."
+    },
+    "days_until_stockout": 59,
+    "see_more_page": "Forecast & Scenario Insights"
+  },
+  "signals": [
+    {
+      "type": "alert",
+      "headline": "Business is running at a net loss \u2014 12.0% net margin",
+      "body": "Total expenses (\u20a67.00M) exceed gross profit. Nepa is your largest cost driver. Review all expense categories in Financial Control immediately.",
+      "linked_page": "Financial Control & Expense Summary"
+    },
+    {
+      "type": "positive",
+      "headline": "8 products generate 35.0% of your total revenue",
+      "body": "Product 12, Product 35, Product 24... are your revenue engine. Keep them stocked across all branches at all times.",
+      "linked_page": "Enterprise Sales & Profitability"
+    },
+    {
+      "type": "alert",
+      "headline": "41 customers have gone quiet \u2014 29.7% churn rate",
+      "body": "Losing customers at this rate is expensive. Check your Gold and Silver tier customers in Customer Loyalty \u2014 re-engaging them with targeted outreach is more cost-effective than acquiring new ones.",
+      "linked_page": "Customer Loyalty & Spending Analytics"
+    },
+    {
+      "type": "positive",
+      "headline": "Staff hitting 108% of target \u2014 strong performance",
+      "body": "Your team is performing well against the revenue target. Review the top performers for commission accuracy and retention planning.",
+      "linked_page": "Operational & Staff Performance"
+    }
+  ],
+  "charts": [
+    {
+      "chart_type": "pareto_bar",
+      "dynamic_title": "8 products drive 35.0% of enterprise revenue",
+      "subtitle": "Revenue contribution by product \u00b7 Full period",
+      "data": [
+        {
+          "name": "Product 12",
+          "revenue": 1632025.0,
+          "pct_of_total": 6.3
+        },
+        {
+          "name": "Product 35",
+          "revenue": 1343760.0,
+          "pct_of_total": 5.2
+        },
+        {
+          "name": "Product 24",
+          "revenue": 1277595.0,
+          "pct_of_total": 4.9
+        },
+        {
+          "name": "Product 29",
+          "revenue": 1029784.0,
+          "pct_of_total": 4.0
+        },
+        {
+          "name": "Product 9",
+          "revenue": 1000696.0,
+          "pct_of_total": 3.8
+        },
+        {
+          "name": "Product 1",
+          "revenue": 975150.0,
+          "pct_of_total": 3.8
+        },
+        {
+          "name": "Product 8",
+          "revenue": 945393.0,
+          "pct_of_total": 3.6
+        },
+        {
+          "name": "Product 28",
+          "revenue": 904113.0,
+          "pct_of_total": 3.5
+        }
+      ],
+      "linked_page": "Enterprise Sales & Profitability"
+    },
+    {
+      "chart_type": "waterfall",
+      "dynamic_title": "Expenses drove net margin to -12.0%",
+      "subtitle": "Gross profit \u2192 expenses \u2192 net profit",
+      "data": [
+        {
+          "label": "Gross Profit",
+          "value": 4.35,
+          "type": "start"
+        },
+        {
+          "label": "Fuel",
+          "value": -1.02,
+          "type": "decrease"
+        },
+        {
+          "label": "Internet",
+          "value": -1.25,
+          "type": "decrease"
+        },
+        {
+          "label": "Maintenance",
+          "value": -1.57,
+          "type": "decrease"
+        },
+        {
+          "label": "NEPA",
+          "value": -1.58,
+          "type": "decrease"
+        },
+        {
+          "label": "Rent",
+          "value": -0.72,
+          "type": "decrease"
+        },
+        {
+          "label": "Salary",
+          "value": -1.29,
+          "type": "decrease"
+        },
+        {
+          "label": "Operating Profit",
+          "value": -3.08,
+          "type": "end"
+        }
+      ],
+      "linked_page": "Financial Control & Expense Summary"
+    },
+    {
+      "chart_type": "branch_bar",
+      "dynamic_title": "Ikeja Branch leads with 42.4% of total revenue",
+      "subtitle": "Revenue by branch \u00b7 4 branches",
+      "data": [
+        {
+          "branch": "Ikeja Branch",
+          "revenue": 11007318.0,
+          "pct_of_total": 42.4
+        },
+        {
+          "branch": "Yaba Branch",
+          "revenue": 5365168.0,
+          "pct_of_total": 20.6
+        },
+        {
+          "branch": "Ajah Branch",
+          "revenue": 5105355.0,
+          "pct_of_total": 19.6
+        },
+        {
+          "branch": "Main Store",
+          "revenue": 4508441.0,
+          "pct_of_total": 17.3
+        }
+      ],
+      "linked_page": "Operational & Staff Performance"
+    },
+    {
+      "chart_type": "repeat_vs_new_donut",
+      "dynamic_title": "90.0% of customers are loyal returning buyers",
+      "subtitle": "138 unique customers \u00b7 \u20a64.00M total CLV",
+      "data": [
+        {
+          "segment": "Repeat Customers",
+          "count": 124,
+          "pct": 89.9
+        },
+        {
+          "segment": "New Customers",
+          "count": 1,
+          "pct": 10.1
+        }
+      ],
+      "linked_page": "Customer Loyalty & Spending Analytics"
+    },
+    {
+      "chart_type": "category_donut",
+      "dynamic_title": "Grocery is your highest-revenue category",
+      "subtitle": "Revenue share by product category \u00b7 Full period",
+      "data": [
+        {
+          "category": "Grocery",
+          "revenue": 8.72,
+          "pct_of_total": 33.6
+        },
+        {
+          "category": "Household",
+          "revenue": 7.04,
+          "pct_of_total": 27.1
+        },
+        {
+          "category": "Beverage",
+          "revenue": 6.72,
+          "pct_of_total": 25.9
+        },
+        {
+          "category": "Personal Care",
+          "revenue": 3.5,
+          "pct_of_total": 13.5
+        }
+      ],
+      "linked_page": "Enterprise Sales & Profitability"
+    }
+  ],
+  "plays": [
+    {
+      "priority": "urgent",
+      "tag": "Urgent - Do This Now",
+      "text": "Your net profit is \u20a6-3,080,000 \u2014 expenses of \u20a67.00M are wiping out all profit. Nepa is your single largest cost. Call a financial review across all branches immediately.",
+      "metric": "Linked to: Net loss \u20a63.08M | Expenses sheet, Amount column"
+    },
+    {
+      "priority": "this_week",
+      "tag": "This Week",
+      "text": "Ensure Product 12, Product 35, Product 24... are always in stock at every branch. These 8 products account for 35.0% of enterprise revenue \u2014 stock-outs hit your entire operation.",
+      "metric": "Linked to: Top 8 product(s) - 35.0% of revenue | Product & Inventory Intelligence"
+    },
+    {
+      "priority": "this_week",
+      "tag": "This Week",
+      "text": "You have 41 customers who haven't returned recently. Winning back half of them could recover up to \u20a63.85M. Prioritise your Gold and Silver tier customers \u2014 they spend the most.",
+      "metric": "Linked to: 41 churned customers | Customer Loyalty & Spending Analytics"
+    },
+    {
+      "priority": "when_you_can",
+      "tag": "When You Can",
+      "text": "Fix the 1 data issue(s) MagByte flagged (Start with the Expenses sheet, Amount column). Clean data across all 7 tables improves accuracy across all 6 pages.",
+      "metric": "Linked to: 1 data quality issue(s)"
+    }
+  ],
+  "metadata": {
+    "tier": "advanced",
+    "period": "all",
+    "record_count": 700,
+    "date_range": {
+      "start": "2025-01-01",
+      "end": "2025-12-30"
+    },
+    "generated_at": "2026-03-28T17:02:49.564684+00:00",
+    "has_master_stock": true,
+    "has_stock_movement": true,
+    "has_expenses": true,
+    "has_staff": true,
+    "has_customers": true,
+    "has_debt": true,
+    "branches": [
+      "Ikeja Branch",
+      "Ajah Branch",
+      "Yaba Branch",
+      "Main Store"
+    ],
+    "record_counts": {
+      "sales": 700,
+      "master_stock": 40,
+      "stock_movement": 40,
+      "expenses": 48,
+      "staff_records": 30,
+      "customer_database": 150,
+      "debt_management": 30
+    }
+  },
+  "ai_brief": {
+    "business_type": "Retail / Provisions Enterprise (Multi-Branch)",
+    "tier": "Advanced",
+    "period_filter": "all",
+    "period": "all",
+    "health_score": {
+      "score": 54,
+      "label": "Needs Attention",
+      "delta": "-9 pts vs previous 30d"
+    },
+    "data_quality": {
+      "has_issues": true,
+      "issue_count": 1,
+      "issues": [
+        "Net profit is \u20a6-3,080,000 \u2014 your expenses (\u20a67.00M) exceed gross profit. Profit margin: -12.0%. Review the Amount column in your Expenses sheet. Largest categories: NEPA, Maintenance, Salary."
+      ]
+    },
+    "comparison": {
+      "period_label": "Full period",
+      "revenue_delta": null,
+      "orders_delta": null
+    },
+    "forecast": {
+      "accuracy_label": "No prior forecast",
+      "narrative": "No previous forecast to compare yet. MagByte will start tracking from this run."
+    },
+    "key_metrics": {
+      "gross_revenue": "\u20a626.00M",
+      "net_profit": "\u20a6-3,080,000",
+      "top_product": "Product 12",
+      "staff_achievement": "108%",
+      "customers": "138"
+    },
+    "top_signals": [
+      {
+        "type": "alert",
+        "headline": "Business is running at a net loss \u2014 12.0% net margin"
+      },
+      {
+        "type": "positive",
+        "headline": "8 products generate 35.0% of your total revenue"
+      },
+      {
+        "type": "alert",
+        "headline": "41 customers have gone quiet \u2014 29.7% churn rate"
+      },
+      {
+        "type": "positive",
+        "headline": "Staff hitting 108% of target \u2014 strong performance"
+      }
+    ],
+    "top_plays": [
+      {
+        "priority": "urgent",
+        "action": "Your net profit is \u20a6-3,080,000 \u2014 expenses of \u20a67.00M are wiping out all profit. Nepa is your single largest cost. Call a financial review across all branches immediately."
+      },
+      {
+        "priority": "this_week",
+        "action": "Ensure Product 12, Product 35, Product 24... are always in stock at every branch. These 8 products account for 35.0% of enterprise revenue \u2014 stock-outs hit your entire operation."
+      },
+      {
+        "priority": "this_week",
+        "action": "You have 41 customers who haven't returned recently. Winning back half of them could recover up to \u20a63.85M. Prioritise your Gold and Silver tier customers \u2014 they spend the most."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1192 @@
+{
+  "period_filter": "all",
+  "data_quality": {
+    "has_issues": true,
+    "issue_count": 2,
+    "issues": [
+      "1 product row has no product name (\u20a60 in revenue excluded). Check your spreadsheet for blank product cells.",
+      "9 transactions show revenue but zero profit. Check for missing cost data in your spreadsheet."
+    ],
+    "pct_clean": 99.4
+  },
+  "health_score": {
+    "score": 76,
+    "delta_pts": 25.0,
+    "delta_label": "++25 pts vs previous 30d",
+    "label": "Good Shape",
+    "colour": "green",
+    "based_on": "Rolling last 30 days",
+    "components": [
+      {
+        "name": "Sales Growth",
+        "weight": "25%",
+        "raw": 100.0,
+        "pts": 25.0,
+        "max_pts": 25.0,
+        "detail": "+316.3% revenue growth last 30d  (\u20a6716.5K vs \u20a6172.1K)",
+        "colour": "green"
+      },
+      {
+        "name": "Profit Margin",
+        "weight": "25%",
+        "raw": 100.0,
+        "pts": 25.0,
+        "max_pts": 25.0,
+        "detail": "49.3% avg profit margin",
+        "colour": "green"
+      },
+      {
+        "name": "Stability",
+        "weight": "20%",
+        "raw": 58.6,
+        "pts": 11.7,
+        "max_pts": 20.0,
+        "detail": "Revenue variance: 82.7% CV \u00b7 0 low-sales days in last 30d",
+        "colour": "amber"
+      },
+      {
+        "name": "Diversification",
+        "weight": "15%",
+        "raw": 47.8,
+        "pts": 7.2,
+        "max_pts": 15.0,
+        "detail": "Top 33 product(s) = 46.3% of profit \u00b7 13 categories active",
+        "colour": "amber"
+      },
+      {
+        "name": "Forecast Accuracy",
+        "weight": "15%",
+        "raw": 50.0,
+        "pts": 7.5,
+        "max_pts": 15.0,
+        "detail": "No prior forecast to evaluate (first run \u2014 neutral score)",
+        "colour": "amber"
+      }
+    ],
+    "data_completeness": {
+      "pct_clean": 99.4,
+      "has_issues": true,
+      "issue_count": 2,
+      "badge": "Score based on 99.4% of your data"
+    }
+  },
+  "comparison": {
+    "period_label": "Full period",
+    "current_label": "Full dataset",
+    "prev_label": null,
+    "revenue_current": 4212708.0,
+    "revenue_prev": null,
+    "revenue_delta_pct": null,
+    "orders_current": 291,
+    "orders_prev": null,
+    "orders_delta_pct": null,
+    "has_comparison": false
+  },
+  "vital_signs": {
+    "revenue": {
+      "label": "Total Revenue",
+      "value": "\u20a64.21M",
+      "sub": "Full period \u00b7 49.3% margin",
+      "delta": "49.3% profit margin \u00b7 full period",
+      "sentiment": "green"
+    },
+    "top_product": {
+      "label": "Top Product",
+      "value": "Mini packs",
+      "sub": "Small Chops \u00b7 \u20a6291.7K profit",
+      "delta": "14.0% of total profit",
+      "sentiment": "green"
+    },
+    "biggest_risk": {
+      "label": "Biggest Risk",
+      "value": "1 Reorder Alert",
+      "sub": "Chops also has low margin",
+      "delta": "Stock running low on key items",
+      "sentiment": "red"
+    },
+    "orders": {
+      "label": "Orders",
+      "value": "291",
+      "sub": "Total transactions",
+      "delta": "Full period",
+      "sentiment": "green"
+    },
+    "overall_trend": {
+      "label": "Overall Trend",
+      "value": "\u2197 Growing",
+      "sub": "Rolling last 30 days",
+      "delta": "+316.3% vs prior 30d",
+      "sentiment": "green",
+      "trend_pct": 316.3
+    }
+  },
+  "forecast_insight": {
+    "current_month": {
+      "month": "Mar 2026",
+      "forecast_value": 629585.0099999999,
+      "forecast_fmt": "\u20a6629.6K",
+      "actual_to_date": 253500.0,
+      "actual_fmt": "\u20a6253.5K",
+      "pct_to_target": 40.3,
+      "still_needed": 376085.0099999999,
+      "still_needed_fmt": "\u20a6376.1K",
+      "days_elapsed": 11,
+      "days_remaining": 20,
+      "total_days": 31,
+      "daily_run_rate": 23045.45,
+      "daily_needed": 18804.25,
+      "projected_total": 714409.09,
+      "on_track": true,
+      "status_label": "On track",
+      "status_colour": "green",
+      "narrative": "MagByte forecast \u20a6629.6K for Mar 2026. You're at \u20a6253.5K so far (40.3% of target) with 20 days remaining. At your current daily pace, you're on track to hit the target.",
+      "reliable": true
+    },
+    "next_forecast": {
+      "month": "Apr 2026",
+      "forecast_value": 340972.89999999997,
+      "forecast_fmt": "\u20a6341.0K",
+      "vs_last_actual": "\u20a687.5K",
+      "direction": "up",
+      "growth_pct": "+8.7%",
+      "reliable": true,
+      "narrative": "MagByte forecasts \u20a6341.0K in revenue for Apr 2026 \u2014 up \u20a687.5K from your most recent completed month."
+    },
+    "accuracy": {
+      "status": "no_log",
+      "forecast_month": null,
+      "forecast_value": null,
+      "actual_value": null,
+      "error_pct": null,
+      "accuracy_pct": null,
+      "accuracy_label": "No prior forecast",
+      "score_pct": 0.5,
+      "narrative": "No previous forecast to compare yet. MagByte will start tracking forecast accuracy from this run."
+    },
+    "see_more_page": "Forecast Insights"
+  },
+  "signals": [
+    {
+      "type": "alert",
+      "headline": "1 product is running low on stock",
+      "body": "Frozen chops has fallen below the reorder level. Running out of stock means losing sales you cannot get back.",
+      "linked_page": "Product Performance"
+    },
+    {
+      "type": "positive",
+      "headline": "10 products generate 46.3% of your profit",
+      "body": "Mini packs, Midi platter, Mini platter... are your highest-earning items. Keep these always in stock.",
+      "linked_page": "Product Performance"
+    },
+    {
+      "type": "warning",
+      "headline": "Smallchop/Doughnut earns you more per sale than Chops",
+      "body": "Smallchop/Doughnut has an average margin of 72.4%, while Chops sits at -125.0%. Shifting focus toward Smallchop/Doughnut could improve your overall profit.",
+      "linked_page": "Product Performance"
+    }
+  ],
+  "charts": [
+    {
+      "chart_type": "pareto_bar",
+      "dynamic_title": "10 products drive 46.3% of your total profit",
+      "subtitle": "Profit contribution by product",
+      "data": [
+        {
+          "name": "Mini packs",
+          "profit": 291711.0,
+          "revenue": 329000.0,
+          "pct_of_total": 14.0
+        },
+        {
+          "name": "Midi platter",
+          "profit": 141128.0,
+          "revenue": 320208.0,
+          "pct_of_total": 6.8
+        },
+        {
+          "name": "Mini platter",
+          "profit": 139200.0,
+          "revenue": 225000.0,
+          "pct_of_total": 6.7
+        },
+        {
+          "name": "Mini pack with chicken",
+          "profit": 79100.0,
+          "revenue": 125500.0,
+          "pct_of_total": 3.8
+        },
+        {
+          "name": "Frozen chops",
+          "profit": 55740.0,
+          "revenue": 115250.0,
+          "pct_of_total": 2.7
+        },
+        {
+          "name": "Medium platter",
+          "profit": 41900.0,
+          "revenue": 112100.0,
+          "pct_of_total": 2.0
+        },
+        {
+          "name": "2 layer 6 inches",
+          "profit": 56200.0,
+          "revenue": 107000.0,
+          "pct_of_total": 2.7
+        },
+        {
+          "name": "All Others",
+          "profit": 1273502.0,
+          "revenue": 0.0,
+          "pct_of_total": 61.3
+        }
+      ]
+    },
+    {
+      "chart_type": "category_donut",
+      "dynamic_title": "Small Chops earns the most profit per sale",
+      "subtitle": "Profit share by category",
+      "data": [
+        {
+          "category": "Small Chops",
+          "profit": 1204824.0,
+          "revenue": 2413858.0,
+          "pct_of_total": 58.0
+        },
+        {
+          "category": "Cake",
+          "profit": 720427.0,
+          "revenue": 1519150.0,
+          "pct_of_total": 34.7
+        },
+        {
+          "category": "Plantain Chips",
+          "profit": 42300.0,
+          "revenue": 86000.0,
+          "pct_of_total": 2.0
+        },
+        {
+          "category": "Training",
+          "profit": 35000.0,
+          "revenue": 35000.0,
+          "pct_of_total": 1.7
+        },
+        {
+          "category": "Pastries",
+          "profit": 23634.0,
+          "revenue": 36000.0,
+          "pct_of_total": 1.1
+        },
+        {
+          "category": "Bbq Fish",
+          "profit": 20800.0,
+          "revenue": 50000.0,
+          "pct_of_total": 1.0
+        },
+        {
+          "category": "Food Box",
+          "profit": 18600.0,
+          "revenue": 40000.0,
+          "pct_of_total": 0.9
+        },
+        {
+          "category": "Chin Chin",
+          "profit": 8500.0,
+          "revenue": 16000.0,
+          "pct_of_total": 0.4
+        },
+        {
+          "category": "Snails",
+          "profit": 3500.0,
+          "revenue": 6000.0,
+          "pct_of_total": 0.2
+        },
+        {
+          "category": "Smallchop/Doughnut",
+          "profit": 2896.0,
+          "revenue": 4000.0,
+          "pct_of_total": 0.1
+        },
+        {
+          "category": "Doughnut",
+          "profit": 500.0,
+          "revenue": 1200.0,
+          "pct_of_total": 0.0
+        },
+        {
+          "category": "Beverages",
+          "profit": 0.0,
+          "revenue": 5000.0,
+          "pct_of_total": 0.0
+        },
+        {
+          "category": "Chops",
+          "profit": -2500.0,
+          "revenue": 500.0,
+          "pct_of_total": -0.1
+        }
+      ]
+    },
+    {
+      "chart_type": "revenue_trend_line",
+      "dynamic_title": "Revenue climbed 54.5% in the second half of the period",
+      "subtitle": "Daily revenue trend",
+      "data": [
+        {
+          "date": "2025-01-04",
+          "sales": 10000
+        },
+        {
+          "date": "2025-02-19",
+          "sales": 43500
+        },
+        {
+          "date": "2025-03-01",
+          "sales": 15000
+        },
+        {
+          "date": "2025-03-04",
+          "sales": 90000
+        },
+        {
+          "date": "2025-03-05",
+          "sales": 11000
+        },
+        {
+          "date": "2025-03-07",
+          "sales": 27000
+        },
+        {
+          "date": "2025-03-08",
+          "sales": 25000
+        },
+        {
+          "date": "2025-03-09",
+          "sales": 18000
+        },
+        {
+          "date": "2025-03-10",
+          "sales": 7000
+        },
+        {
+          "date": "2025-03-12",
+          "sales": 11000
+        },
+        {
+          "date": "2025-03-13",
+          "sales": 10000
+        },
+        {
+          "date": "2025-03-14",
+          "sales": 22500
+        },
+        {
+          "date": "2025-03-16",
+          "sales": 0
+        },
+        {
+          "date": "2025-03-17",
+          "sales": 15000
+        },
+        {
+          "date": "2025-03-20",
+          "sales": 0
+        },
+        {
+          "date": "2025-03-21",
+          "sales": 20000
+        },
+        {
+          "date": "2025-03-24",
+          "sales": 35000
+        },
+        {
+          "date": "2025-03-29",
+          "sales": 6000
+        },
+        {
+          "date": "2025-03-30",
+          "sales": 5000
+        },
+        {
+          "date": "2025-04-03",
+          "sales": 1000
+        },
+        {
+          "date": "2025-04-04",
+          "sales": 12250
+        },
+        {
+          "date": "2025-04-05",
+          "sales": 9400
+        },
+        {
+          "date": "2025-04-07",
+          "sales": 15000
+        },
+        {
+          "date": "2025-04-09",
+          "sales": 7700
+        },
+        {
+          "date": "2025-04-11",
+          "sales": 7000
+        },
+        {
+          "date": "2025-04-12",
+          "sales": 7700
+        },
+        {
+          "date": "2025-04-14",
+          "sales": 15000
+        },
+        {
+          "date": "2025-04-15",
+          "sales": 39800
+        },
+        {
+          "date": "2025-04-17",
+          "sales": 5000
+        },
+        {
+          "date": "2025-04-18",
+          "sales": 44000
+        },
+        {
+          "date": "2025-04-23",
+          "sales": 15000
+        },
+        {
+          "date": "2025-04-30",
+          "sales": 500
+        },
+        {
+          "date": "2025-05-03",
+          "sales": 12000
+        },
+        {
+          "date": "2025-05-05",
+          "sales": 35000
+        },
+        {
+          "date": "2025-05-10",
+          "sales": 8000
+        },
+        {
+          "date": "2025-05-12",
+          "sales": 9000
+        },
+        {
+          "date": "2025-05-18",
+          "sales": 1200
+        },
+        {
+          "date": "2025-05-19",
+          "sales": 0
+        },
+        {
+          "date": "2025-05-20",
+          "sales": 9000
+        },
+        {
+          "date": "2025-05-22",
+          "sales": 5000
+        },
+        {
+          "date": "2025-05-23",
+          "sales": 0
+        },
+        {
+          "date": "2025-05-27",
+          "sales": 5000
+        },
+        {
+          "date": "2025-05-28",
+          "sales": 6000
+        },
+        {
+          "date": "2025-05-30",
+          "sales": 9000
+        },
+        {
+          "date": "2025-05-31",
+          "sales": 20000
+        },
+        {
+          "date": "2025-06-04",
+          "sales": 0
+        },
+        {
+          "date": "2025-06-06",
+          "sales": 20000
+        },
+        {
+          "date": "2025-06-07",
+          "sales": 0
+        },
+        {
+          "date": "2025-06-09",
+          "sales": 6200
+        },
+        {
+          "date": "2025-06-10",
+          "sales": 18000
+        },
+        {
+          "date": "2025-06-18",
+          "sales": 13000
+        },
+        {
+          "date": "2025-06-19",
+          "sales": 0
+        },
+        {
+          "date": "2025-06-26",
+          "sales": 0
+        },
+        {
+          "date": "2025-06-29",
+          "sales": 0
+        },
+        {
+          "date": "2025-06-30",
+          "sales": 0
+        },
+        {
+          "date": "2025-07-05",
+          "sales": 12000
+        },
+        {
+          "date": "2025-07-06",
+          "sales": 6000
+        },
+        {
+          "date": "2025-07-09",
+          "sales": 40000
+        },
+        {
+          "date": "2025-07-11",
+          "sales": 13000
+        },
+        {
+          "date": "2025-07-12",
+          "sales": 26000
+        },
+        {
+          "date": "2025-07-13",
+          "sales": 0
+        },
+        {
+          "date": "2025-07-14",
+          "sales": 0
+        },
+        {
+          "date": "2025-07-15",
+          "sales": 20000
+        },
+        {
+          "date": "2025-07-16",
+          "sales": 30000
+        },
+        {
+          "date": "2025-07-17",
+          "sales": 10000
+        },
+        {
+          "date": "2025-07-18",
+          "sales": 8000
+        },
+        {
+          "date": "2025-07-24",
+          "sales": 54000
+        },
+        {
+          "date": "2025-07-25",
+          "sales": 5000
+        },
+        {
+          "date": "2025-07-26",
+          "sales": 9000
+        },
+        {
+          "date": "2025-07-27",
+          "sales": 2000
+        },
+        {
+          "date": "2025-07-28",
+          "sales": 35000
+        },
+        {
+          "date": "2025-07-31",
+          "sales": 1250
+        },
+        {
+          "date": "2025-08-02",
+          "sales": 23000
+        },
+        {
+          "date": "2025-08-04",
+          "sales": 51500
+        },
+        {
+          "date": "2025-08-05",
+          "sales": 15000
+        },
+        {
+          "date": "2025-08-06",
+          "sales": 10000
+        },
+        {
+          "date": "2025-08-09",
+          "sales": 12000
+        },
+        {
+          "date": "2025-08-10",
+          "sales": 22600
+        },
+        {
+          "date": "2025-08-11",
+          "sales": 18000
+        },
+        {
+          "date": "2025-08-12",
+          "sales": 9000
+        },
+        {
+          "date": "2025-08-13",
+          "sales": 11000
+        },
+        {
+          "date": "2025-08-14",
+          "sales": 20000
+        },
+        {
+          "date": "2025-08-15",
+          "sales": 260000
+        },
+        {
+          "date": "2025-08-16",
+          "sales": 8000
+        },
+        {
+          "date": "2025-08-18",
+          "sales": 17000
+        },
+        {
+          "date": "2025-08-23",
+          "sales": 19000
+        },
+        {
+          "date": "2025-08-24",
+          "sales": 18000
+        },
+        {
+          "date": "2025-08-25",
+          "sales": 11000
+        },
+        {
+          "date": "2025-08-26",
+          "sales": 7900
+        },
+        {
+          "date": "2025-08-28",
+          "sales": 8400
+        },
+        {
+          "date": "2025-09-02",
+          "sales": 26500
+        },
+        {
+          "date": "2025-09-03",
+          "sales": 30500
+        },
+        {
+          "date": "2025-09-05",
+          "sales": 48000
+        },
+        {
+          "date": "2025-09-08",
+          "sales": 8000
+        },
+        {
+          "date": "2025-09-11",
+          "sales": 11000
+        },
+        {
+          "date": "2025-09-12",
+          "sales": 41000
+        },
+        {
+          "date": "2025-09-13",
+          "sales": 11000
+        },
+        {
+          "date": "2025-09-14",
+          "sales": 17500
+        },
+        {
+          "date": "2025-09-17",
+          "sales": 9600
+        },
+        {
+          "date": "2025-09-18",
+          "sales": 13500
+        },
+        {
+          "date": "2025-09-20",
+          "sales": 26000
+        },
+        {
+          "date": "2025-09-22",
+          "sales": 24000
+        },
+        {
+          "date": "2025-09-23",
+          "sales": 8000
+        },
+        {
+          "date": "2025-09-24",
+          "sales": 40500
+        },
+        {
+          "date": "2025-09-25",
+          "sales": 190000
+        },
+        {
+          "date": "2025-09-28",
+          "sales": 30000
+        },
+        {
+          "date": "2025-09-29",
+          "sales": 12000
+        },
+        {
+          "date": "2025-10-01",
+          "sales": 15000
+        },
+        {
+          "date": "2025-10-08",
+          "sales": 52500
+        },
+        {
+          "date": "2025-10-10",
+          "sales": 36300
+        },
+        {
+          "date": "2025-10-11",
+          "sales": 15000
+        },
+        {
+          "date": "2025-10-13",
+          "sales": 15000
+        },
+        {
+          "date": "2025-10-14",
+          "sales": 0
+        },
+        {
+          "date": "2025-10-15",
+          "sales": 12000
+        },
+        {
+          "date": "2025-10-20",
+          "sales": 15000
+        },
+        {
+          "date": "2025-10-22",
+          "sales": 18000
+        },
+        {
+          "date": "2025-10-23",
+          "sales": 10000
+        },
+        {
+          "date": "2025-10-25",
+          "sales": 37000
+        },
+        {
+          "date": "2025-10-26",
+          "sales": 3000
+        },
+        {
+          "date": "2025-10-27",
+          "sales": 43500
+        },
+        {
+          "date": "2025-10-30",
+          "sales": 29300
+        },
+        {
+          "date": "2025-11-02",
+          "sales": 6000
+        },
+        {
+          "date": "2025-11-03",
+          "sales": 8000
+        },
+        {
+          "date": "2025-11-05",
+          "sales": 9000
+        },
+        {
+          "date": "2025-11-10",
+          "sales": 13500
+        },
+        {
+          "date": "2025-11-13",
+          "sales": 13500
+        },
+        {
+          "date": "2025-11-14",
+          "sales": 16000
+        },
+        {
+          "date": "2025-11-16",
+          "sales": 23000
+        },
+        {
+          "date": "2025-11-17",
+          "sales": 35000
+        },
+        {
+          "date": "2025-11-18",
+          "sales": 11000
+        },
+        {
+          "date": "2025-11-19",
+          "sales": 13500
+        },
+        {
+          "date": "2025-11-25",
+          "sales": 13500
+        },
+        {
+          "date": "2025-11-26",
+          "sales": 24000
+        },
+        {
+          "date": "2025-11-27",
+          "sales": 19000
+        },
+        {
+          "date": "2025-11-30",
+          "sales": 22000
+        },
+        {
+          "date": "2025-12-01",
+          "sales": 225000
+        },
+        {
+          "date": "2025-12-02",
+          "sales": 81008
+        },
+        {
+          "date": "2025-12-03",
+          "sales": 22500
+        },
+        {
+          "date": "2025-12-04",
+          "sales": 4000
+        },
+        {
+          "date": "2025-12-05",
+          "sales": 44000
+        },
+        {
+          "date": "2025-12-08",
+          "sales": 38000
+        },
+        {
+          "date": "2025-12-11",
+          "sales": 31000
+        },
+        {
+          "date": "2025-12-12",
+          "sales": 32500
+        },
+        {
+          "date": "2025-12-13",
+          "sales": 8000
+        },
+        {
+          "date": "2025-12-14",
+          "sales": 17000
+        },
+        {
+          "date": "2025-12-15",
+          "sales": 14500
+        },
+        {
+          "date": "2025-12-16",
+          "sales": 22000
+        },
+        {
+          "date": "2025-12-17",
+          "sales": 11000
+        },
+        {
+          "date": "2025-12-20",
+          "sales": 34000
+        },
+        {
+          "date": "2025-12-22",
+          "sales": 44500
+        },
+        {
+          "date": "2025-12-23",
+          "sales": 22500
+        },
+        {
+          "date": "2025-12-25",
+          "sales": 17000
+        },
+        {
+          "date": "2025-12-28",
+          "sales": 15000
+        },
+        {
+          "date": "2026-01-02",
+          "sales": 25500
+        },
+        {
+          "date": "2026-01-13",
+          "sales": 23500
+        },
+        {
+          "date": "2026-01-16",
+          "sales": 15000
+        },
+        {
+          "date": "2026-01-17",
+          "sales": 25500
+        },
+        {
+          "date": "2026-01-19",
+          "sales": 14100
+        },
+        {
+          "date": "2026-01-20",
+          "sales": 500
+        },
+        {
+          "date": "2026-01-21",
+          "sales": 9000
+        },
+        {
+          "date": "2026-01-29",
+          "sales": 2400
+        },
+        {
+          "date": "2026-02-01",
+          "sales": 49000
+        },
+        {
+          "date": "2026-02-04",
+          "sales": 15100
+        },
+        {
+          "date": "2026-02-06",
+          "sales": 12000
+        },
+        {
+          "date": "2026-02-08",
+          "sales": 6000
+        },
+        {
+          "date": "2026-02-11",
+          "sales": 55000
+        },
+        {
+          "date": "2026-02-12",
+          "sales": 128500
+        },
+        {
+          "date": "2026-02-13",
+          "sales": 55000
+        },
+        {
+          "date": "2026-02-14",
+          "sales": 12000
+        },
+        {
+          "date": "2026-02-15",
+          "sales": 45000
+        },
+        {
+          "date": "2026-02-16",
+          "sales": 15000
+        },
+        {
+          "date": "2026-02-19",
+          "sales": 15000
+        },
+        {
+          "date": "2026-02-20",
+          "sales": 43000
+        },
+        {
+          "date": "2026-02-22",
+          "sales": 23500
+        },
+        {
+          "date": "2026-02-24",
+          "sales": 23000
+        },
+        {
+          "date": "2026-02-25",
+          "sales": 22000
+        },
+        {
+          "date": "2026-02-27",
+          "sales": 22000
+        },
+        {
+          "date": "2026-02-28",
+          "sales": 4000
+        },
+        {
+          "date": "2026-03-01",
+          "sales": 16000
+        },
+        {
+          "date": "2026-03-02",
+          "sales": 54000
+        },
+        {
+          "date": "2026-03-03",
+          "sales": 30000
+        },
+        {
+          "date": "2026-03-04",
+          "sales": 31000
+        },
+        {
+          "date": "2026-03-05",
+          "sales": 52500
+        },
+        {
+          "date": "2026-03-07",
+          "sales": 10000
+        },
+        {
+          "date": "2026-03-09",
+          "sales": 15000
+        },
+        {
+          "date": "2026-03-10",
+          "sales": 9000
+        },
+        {
+          "date": "2026-03-11",
+          "sales": 36000
+        }
+      ]
+    }
+  ],
+  "plays": [
+    {
+      "priority": "urgent",
+      "tag": "Urgent \u2014 Do This Now",
+      "text": "Restock Frozen chops immediately. This is below the minimum stock level \u2014 running out means losing sales you cannot get back.",
+      "metric": "Linked to: 1 reorder alert(s)"
+    },
+    {
+      "priority": "this_week",
+      "tag": "This Week",
+      "text": "Make sure Mini packs, Midi platter, Mini platter... are always in stock. These 10 products account for 46.3% of your profit \u2014 running short costs you directly.",
+      "metric": "Linked to: Top 10 product(s) \u00b7 46.3% of total profit"
+    },
+    {
+      "priority": "this_week",
+      "tag": "This Week",
+      "text": "Focus your restocking budget on Smallchop/Doughnut products. Every sale there earns you 72.4% profit on average, compared to -125.0% in Chops. More Smallchop/Doughnut stock = more money per sale.",
+      "metric": "Linked to: Smallchop/Doughnut margin 72.4% vs Chops -125.0%"
+    },
+    {
+      "priority": "this_week",
+      "tag": "This Week",
+      "text": "Check that your Transfer setup is always working correctly. 100.0% of your customers pay this way \u2014 any downtime means lost sales immediately.",
+      "metric": "Linked to: Transfer = 100.0% of all payments"
+    },
+    {
+      "priority": "when_you_can",
+      "tag": "When You Can",
+      "text": "Clean up your spreadsheet data. MagByte found 2 data issue(s) affecting your summary accuracy. Fixing these gives you a more complete picture.",
+      "metric": "Linked to: 2 data quality issue(s)"
+    }
+  ],
+  "metadata": {
+    "period": {
+      "start": "2025-01-04",
+      "end": "2026-03-11"
+    },
+    "record_count": 291,
+    "generated_at": "2026-03-28T11:52:17.456439+00:00",
+    "tier": "basic"
+  },
+  "ai_brief": {
+    "business_type": "Retail / Provision Store",
+    "tier": "Basic",
+    "period_filter": "all",
+    "period": {
+      "start": "2025-01-04",
+      "end": "2026-03-11"
+    },
+    "health_score": {
+      "score": 76,
+      "label": "Good Shape",
+      "delta": "++25 pts vs previous 30d"
+    },
+    "data_quality": {
+      "has_issues": true,
+      "issue_count": 2,
+      "issues": [
+        "1 product row has no product name (\u20a60 in revenue excluded). Check your spreadsheet for blank product cells.",
+        "9 transactions show revenue but zero profit. Check for missing cost data in your spreadsheet."
+      ]
+    },
+    "comparison": {
+      "period_label": "Full period",
+      "revenue_delta": null,
+      "orders_delta": null
+    },
+    "forecast": {
+      "accuracy_label": "No prior forecast",
+      "narrative": "No previous forecast to compare yet. MagByte will start tracking forecast accuracy from this run."
+    },
+    "key_metrics": {
+      "revenue": "\u20a64.21M",
+      "revenue_delta": "49.3% profit margin \u00b7 full period",
+      "top_product": "Mini packs",
+      "orders": "291",
+      "orders_delta": "Full period"
+    },
+    "top_signals": [
+      {
+        "type": "alert",
+        "headline": "1 product is running low on stock"
+      },
+      {
+        "type": "positive",
+        "headline": "10 products generate 46.3% of your profit"
+      },
+      {
+        "type": "warning",
+        "headline": "Smallchop/Doughnut earns you more per sale than Chops"
+      }
+    ],
+    "top_plays": [
+      {
+        "priority": "urgent",
+        "action": "Restock Frozen chops immediately. This is below the minimum stock level \u2014 running out means losing sales you cannot get back."
+      },
+      {
+        "priority": "this_week",
+        "action": "Make sure Mini packs, Midi platter, Mini platter... are always in stock. These 10 products account for 46.3% of your profit \u2014 running short costs you directly."
+      },
+      {
+        "priority": "this_week",
+        "action": "Focus your restocking budget on Smallchop/Doughnut products. Every sale there earns you 72.4% profit on average, compared to -125.0% in Chops. More Smallchop/Doughnut stock = more money per sale."
+      }
+    ]
+  }
+}

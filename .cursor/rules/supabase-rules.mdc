@@ -1,0 +1,12 @@
+---
+globs: ["**/lib/supabase*", "**/lib/db*", "**/*migration*", "**/supabase/**"]
+---
+
+# MagByte Supabase rules
+
+- Never disable RLS on any table
+- Write a migration SQL file before any schema change
+- analyzed_data is the source of truth — never truncate without confirmation
+- Use service role key only in server-side code, never in client components
+- Connection strings come from .env.local exclusively
+- Prefer Supabase RPC for complex queries over raw SQL in components
