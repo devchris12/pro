@@ -8,6 +8,6 @@ import {
 
 export function useGoogleLogin() {
   return useMutation<GoogleConsentUrlResponse, Error>({
-    mutationFn: getGoogleOAuthConsentUrl,
+    mutationFn: () => getGoogleOAuthConsentUrl(),
   });
 }
