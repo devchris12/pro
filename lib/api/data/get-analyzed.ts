@@ -5,8 +5,8 @@ import type { BasicAnalysisResult } from "@/app/types/basicAnalysis";
 import type { ExecutiveSummaryResult } from "@/app/types/executiveSummary";
 
 export interface AnalyzedDataResponse {
-  analyzed_data: BasicAnalysisResult;
-  executive_summary: ExecutiveSummaryResult;
+  analyzed_data?: BasicAnalysisResult | null;
+  executive_summary?: ExecutiveSummaryResult | null;
 }
 
 export interface GetAnalyzedNotFoundError {

@@ -15,7 +15,10 @@ import {
 } from "@/app/mock";
 import { useGetAnalyzed } from "@/app/components/hooks/data/useGetAnalyzed";
 import { useDashboardStore } from "@/app/stores/dashboard/useDashboardStore";
-import { isBasicAnalysisWithDetailTable } from "@/app/lib/basic-analysis";
+import {
+  isBasicAnalysisWithDetailTable,
+  normalizeBasicAnalysis,
+} from "@/app/lib/basic-analysis";
 import type { BasicAnalysisResult } from "@/app/types/basicAnalysis";
 import type { ExecutiveSummaryResult } from "@/app/types/executiveSummary";
 import type { IntermediateAnalysisResult } from "@/app/types/intermediateAnalysis";
@@ -29,7 +32,8 @@ function resolveBasicAnalysis(
   analyzed: unknown,
   devTier: string,
 ): BasicAnalysisResult | null {
-  if (isBasicAnalysisWithDetailTable(analyzed)) return analyzed;
+  const normalized = normalizeBasicAnalysis(analyzed);
+  if (normalized) return normalized;
   if (IS_DEV_DEMO && devTier === "basic") return mockBasicAnalysis;
   return null;
 }

@@ -254,7 +254,7 @@ function BasicContent({ data, rawData }: { data: BasicAnalysisResult["page_1"]; 
   if (!data || !rawData) return null;
 
   const { kpis, charts } = data;
-  const rawDetailTable = rawData.detail_table ?? [];
+  const rawDetailTable = rawData?.detail_table ?? [];
   const filteredData = useFilteredData();
   const {
     focusModeOpen,
