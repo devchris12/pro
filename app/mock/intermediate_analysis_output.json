@@ -1,0 +1,3398 @@
+{
+  "page_1": {
+    "kpis": {
+      "total_sales": 7561500.0,
+      "total_cost": 6699600.0,
+      "gross_profit": 861900.0,
+      "net_sales": 7470500.0,
+      "discount_impact": 91000.0,
+      "order_count": 300,
+      "aov": 25205.0,
+      "daily_avg_sales": 39178.76,
+      "profit_margin": 11.4
+    },
+    "charts": {
+      "sales_trend": [
+        {
+          "month": "2025-01",
+          "sales": 437000,
+          "month_short": "Jan"
+        },
+        {
+          "month": "2025-02",
+          "sales": 372500,
+          "month_short": "Feb"
+        },
+        {
+          "month": "2025-03",
+          "sales": 645000,
+          "month_short": "Mar"
+        },
+        {
+          "month": "2025-04",
+          "sales": 634000,
+          "month_short": "Apr"
+        },
+        {
+          "month": "2025-05",
+          "sales": 728000,
+          "month_short": "May"
+        },
+        {
+          "month": "2025-06",
+          "sales": 607000,
+          "month_short": "Jun"
+        },
+        {
+          "month": "2025-07",
+          "sales": 860500,
+          "month_short": "Jul"
+        },
+        {
+          "month": "2025-08",
+          "sales": 589500,
+          "month_short": "Aug"
+        },
+        {
+          "month": "2025-09",
+          "sales": 827500,
+          "month_short": "Sep"
+        },
+        {
+          "month": "2025-10",
+          "sales": 744500,
+          "month_short": "Oct"
+        },
+        {
+          "month": "2025-11",
+          "sales": 526500,
+          "month_short": "Nov"
+        },
+        {
+          "month": "2025-12",
+          "sales": 589500,
+          "month_short": "Dec"
+        }
+      ],
+      "profit_trend": [
+        {
+          "month": "2025-01",
+          "profit": 50100,
+          "month_short": "Jan"
+        },
+        {
+          "month": "2025-02",
+          "profit": 46100,
+          "month_short": "Feb"
+        },
+        {
+          "month": "2025-03",
+          "profit": 79000,
+          "month_short": "Mar"
+        },
+        {
+          "month": "2025-04",
+          "profit": 69800,
+          "month_short": "Apr"
+        },
+        {
+          "month": "2025-05",
+          "profit": 82400,
+          "month_short": "May"
+        },
+        {
+          "month": "2025-06",
+          "profit": 67400,
+          "month_short": "Jun"
+        },
+        {
+          "month": "2025-07",
+          "profit": 97300,
+          "month_short": "Jul"
+        },
+        {
+          "month": "2025-08",
+          "profit": 69200,
+          "month_short": "Aug"
+        },
+        {
+          "month": "2025-09",
+          "profit": 88700,
+          "month_short": "Sep"
+        },
+        {
+          "month": "2025-10",
+          "profit": 81900,
+          "month_short": "Oct"
+        },
+        {
+          "month": "2025-11",
+          "profit": 62400,
+          "month_short": "Nov"
+        },
+        {
+          "month": "2025-12",
+          "profit": 67600,
+          "month_short": "Dec"
+        }
+      ],
+      "revenue_by_category": [
+        {
+          "category": "Grocery",
+          "units_sold": 452,
+          "revenue": 6302000
+        },
+        {
+          "category": "Household",
+          "units_sold": 176,
+          "revenue": 616000
+        },
+        {
+          "category": "Beverage",
+          "units_sold": 153,
+          "revenue": 459000
+        },
+        {
+          "category": "Personal Care",
+          "units_sold": 123,
+          "revenue": 184500
+        }
+      ],
+      "payment_method_distribution": [
+        {
+          "method": "Cash",
+          "revenue": 3026500
+        },
+        {
+          "method": "Transfer",
+          "revenue": 2389500
+        },
+        {
+          "method": "POS",
+          "revenue": 2145500
+        }
+      ],
+      "staff_performance": [
+        {
+          "name": "Emeka",
+          "revenue": 2115000
+        },
+        {
+          "name": "Aisha",
+          "revenue": 1851000
+        },
+        {
+          "name": "Blessing",
+          "revenue": 1814500
+        },
+        {
+          "name": "John",
+          "revenue": 1781000
+        }
+      ]
+    }
+  },
+  "page_2": {
+    "kpis": {
+      "profit_margin": 11.4,
+      "units_sold": 904,
+      "total_products": 6,
+      "products_below_reorder": 4,
+      "categories": 4,
+      "stock_added": 1092,
+      "restock_cost": 7777100.0,
+      "current_stock_balance": 188,
+      "avg_stock_level": 31.33,
+      "stock_turnover_rate": 2885.11,
+      "supplier_transactions": 6
+    },
+    "charts": {
+      "top_products": [
+        {
+          "product": "Detergent",
+          "units_sold": 176
+        },
+        {
+          "product": "Indomie Carton",
+          "units_sold": 171
+        },
+        {
+          "product": "Soft Drink Crate",
+          "units_sold": 153
+        },
+        {
+          "product": "Palm Oil 5L",
+          "units_sold": 145
+        },
+        {
+          "product": "Rice 10kg",
+          "units_sold": 136
+        },
+        {
+          "product": "Toothpaste",
+          "units_sold": 123
+        }
+      ],
+      "stock_level_trend": [
+        {
+          "date": "2025-02-07 00:00:00",
+          "avg_stock": 15.0,
+          "date_str": "Feb 2025"
+        },
+        {
+          "date": "2025-03-08 00:00:00",
+          "avg_stock": 95.0,
+          "date_str": "Mar 2025"
+        },
+        {
+          "date": "2025-04-15 00:00:00",
+          "avg_stock": 17.0,
+          "date_str": "Apr 2025"
+        },
+        {
+          "date": "2025-06-13 00:00:00",
+          "avg_stock": 14.0,
+          "date_str": "Jun 2025"
+        },
+        {
+          "date": "2025-08-14 00:00:00",
+          "avg_stock": 16.0,
+          "date_str": "Aug 2025"
+        },
+        {
+          "date": "2025-12-17 00:00:00",
+          "avg_stock": 31.0,
+          "date_str": "Dec 2025"
+        }
+      ],
+      "restock_history": [
+        {
+          "month": "Apr",
+          "supplier": "Metro Wholesale",
+          "qty": 193
+        },
+        {
+          "month": "Aug",
+          "supplier": "Prime Distributors",
+          "qty": 161
+        },
+        {
+          "month": "Dec",
+          "supplier": "Metro Wholesale",
+          "qty": 167
+        },
+        {
+          "month": "Feb",
+          "supplier": "Prime Distributors",
+          "qty": 186
+        },
+        {
+          "month": "Jun",
+          "supplier": "Golden Supplies Ltd",
+          "qty": 167
+        },
+        {
+          "month": "Mar",
+          "supplier": "Prime Distributors",
+          "qty": 218
+        }
+      ],
+      "supplier_ranking": [
+        {
+          "name": "Prime Distributors",
+          "total_spent": 3774600,
+          "transactions": 3
+        },
+        {
+          "name": "Metro Wholesale",
+          "total_spent": 3585000,
+          "transactions": 2
+        },
+        {
+          "name": "Golden Supplies Ltd",
+          "total_spent": 417500,
+          "transactions": 1
+        }
+      ],
+      "stock_alert_gauge": {
+        "products_below_reorder": 4,
+        "total_products": 6,
+        "threshold": 20
+      },
+      "stock_by_category": [
+        {
+          "category": "Personal Care",
+          "stock_level": 95
+        },
+        {
+          "category": "Grocery",
+          "stock_level": 62
+        },
+        {
+          "category": "Household",
+          "stock_level": 17
+        },
+        {
+          "category": "Beverage",
+          "stock_level": 14
+        }
+      ]
+    },
+    "product_table": [
+      {
+        "product": "Rice 10kg",
+        "category": "Grocery",
+        "units_sold": 136,
+        "revenue": 2720000,
+        "cost": 2448000,
+        "profit": 272000,
+        "cost_price": 18000.0,
+        "selling_price": 20000.0,
+        "profit_margin": 10.0,
+        "stock_balance": 31
+      },
+      {
+        "product": "Palm Oil 5L",
+        "category": "Grocery",
+        "units_sold": 145,
+        "revenue": 1957500,
+        "cost": 1740000,
+        "profit": 217500,
+        "cost_price": 12000.0,
+        "selling_price": 13500.0,
+        "profit_margin": 11.1,
+        "stock_balance": 16
+      },
+      {
+        "product": "Indomie Carton",
+        "category": "Grocery",
+        "units_sold": 171,
+        "revenue": 1624500,
+        "cost": 1453500,
+        "profit": 171000,
+        "cost_price": 8500.0,
+        "selling_price": 9500.0,
+        "profit_margin": 10.5,
+        "stock_balance": 15
+      },
+      {
+        "product": "Detergent",
+        "category": "Household",
+        "units_sold": 176,
+        "revenue": 616000,
+        "cost": 528000,
+        "profit": 88000,
+        "cost_price": 3000.0,
+        "selling_price": 3500.0,
+        "profit_margin": 14.3,
+        "stock_balance": 17
+      },
+      {
+        "product": "Soft Drink Crate",
+        "category": "Beverage",
+        "units_sold": 153,
+        "revenue": 459000,
+        "cost": 382500,
+        "profit": 76500,
+        "cost_price": 2500.0,
+        "selling_price": 3000.0,
+        "profit_margin": 16.7,
+        "stock_balance": 14
+      },
+      {
+        "product": "Toothpaste",
+        "category": "Personal Care",
+        "units_sold": 123,
+        "revenue": 184500,
+        "cost": 147600,
+        "profit": 36900,
+        "cost_price": 1200.0,
+        "selling_price": 1500.0,
+        "profit_margin": 20.0,
+        "stock_balance": 95
+      }
+    ]
+  },
+  "page_3": {
+    "kpis": {
+      "unique_customers": 49,
+      "repeat_customers": 44,
+      "repeat_purchase_rate": 89.8,
+      "clv": 861900.0,
+      "avg_customer_value": 154316.33,
+      "total_spent_list": 7561500.0,
+      "total_visits": 300,
+      "avg_visits_per_customer": 6.1,
+      "last_visit_date": "12/31/2025",
+      "customers_this_month": 18,
+      "churned_customers": 0,
+      "customer_retention_rate": 46.7
+    },
+    "charts": {
+      "customer_leaderboard": [
+        {
+          "name": "Customer 15",
+          "customer_phone": "08022575562",
+          "total_spent": 400000,
+          "visits": 11
+        },
+        {
+          "name": "Customer 33",
+          "customer_phone": "08055667651",
+          "total_spent": 387000,
+          "visits": 13
+        },
+        {
+          "name": "Customer 6",
+          "customer_phone": "08039958838",
+          "total_spent": 341500,
+          "visits": 13
+        },
+        {
+          "name": "Customer 4",
+          "customer_phone": "08046913810",
+          "total_spent": 329500,
+          "visits": 16
+        },
+        {
+          "name": "Customer 27",
+          "customer_phone": "08070291817",
+          "total_spent": 309500,
+          "visits": 9
+        },
+        {
+          "name": "Customer 25",
+          "customer_phone": "08066306997",
+          "total_spent": 306000,
+          "visits": 9
+        },
+        {
+          "name": "Customer 17",
+          "customer_phone": "08041227216",
+          "total_spent": 295500,
+          "visits": 11
+        },
+        {
+          "name": "Customer 2",
+          "customer_phone": "08024942603",
+          "total_spent": 284000,
+          "visits": 8
+        },
+        {
+          "name": "Customer 5",
+          "customer_phone": "08042868828",
+          "total_spent": 279500,
+          "visits": 6
+        },
+        {
+          "name": "Customer 16",
+          "customer_phone": "08039345092",
+          "total_spent": 273000,
+          "visits": 7
+        },
+        {
+          "name": "Customer 49",
+          "customer_phone": "08026753883",
+          "total_spent": 267000,
+          "visits": 10
+        },
+        {
+          "name": "Customer 47",
+          "customer_phone": "08071662963",
+          "total_spent": 257000,
+          "visits": 10
+        },
+        {
+          "name": "Customer 48",
+          "customer_phone": "08081971316",
+          "total_spent": 247000,
+          "visits": 9
+        },
+        {
+          "name": "Customer 40",
+          "customer_phone": "08060992979",
+          "total_spent": 227000,
+          "visits": 10
+        }
+      ],
+      "monthly_active": [
+        {
+          "month": "2025-01",
+          "active_customers": 16,
+          "month_short": "Jan"
+        },
+        {
+          "month": "2025-02",
+          "active_customers": 20,
+          "month_short": "Feb"
+        },
+        {
+          "month": "2025-03",
+          "active_customers": 26,
+          "month_short": "Mar"
+        },
+        {
+          "month": "2025-04",
+          "active_customers": 16,
+          "month_short": "Apr"
+        },
+        {
+          "month": "2025-05",
+          "active_customers": 21,
+          "month_short": "May"
+        },
+        {
+          "month": "2025-06",
+          "active_customers": 18,
+          "month_short": "Jun"
+        },
+        {
+          "month": "2025-07",
+          "active_customers": 22,
+          "month_short": "Jul"
+        },
+        {
+          "month": "2025-08",
+          "active_customers": 22,
+          "month_short": "Aug"
+        },
+        {
+          "month": "2025-09",
+          "active_customers": 17,
+          "month_short": "Sep"
+        },
+        {
+          "month": "2025-10",
+          "active_customers": 18,
+          "month_short": "Oct"
+        },
+        {
+          "month": "2025-11",
+          "active_customers": 15,
+          "month_short": "Nov"
+        },
+        {
+          "month": "2025-12",
+          "active_customers": 18,
+          "month_short": "Dec"
+        }
+      ],
+      "clv_by_category": [
+        {
+          "customer": "Customer 15",
+          "category": "Beverage",
+          "clv": 3500
+        },
+        {
+          "customer": "Customer 15",
+          "category": "Grocery",
+          "clv": 38000
+        },
+        {
+          "customer": "Customer 15",
+          "category": "Personal Care",
+          "clv": 2100
+        },
+        {
+          "customer": "Customer 16",
+          "category": "Grocery",
+          "clv": 25000
+        },
+        {
+          "customer": "Customer 16",
+          "category": "Household",
+          "clv": 3500
+        },
+        {
+          "customer": "Customer 16",
+          "category": "Personal Care",
+          "clv": 1500
+        },
+        {
+          "customer": "Customer 17",
+          "category": "Beverage",
+          "clv": 500
+        },
+        {
+          "customer": "Customer 17",
+          "category": "Grocery",
+          "clv": 24000
+        },
+        {
+          "customer": "Customer 17",
+          "category": "Household",
+          "clv": 7000
+        },
+        {
+          "customer": "Customer 17",
+          "category": "Personal Care",
+          "clv": 900
+        },
+        {
+          "customer": "Customer 2",
+          "category": "Beverage",
+          "clv": 500
+        },
+        {
+          "customer": "Customer 2",
+          "category": "Grocery",
+          "clv": 28500
+        },
+        {
+          "customer": "Customer 2",
+          "category": "Household",
+          "clv": 2000
+        },
+        {
+          "customer": "Customer 25",
+          "category": "Beverage",
+          "clv": 2500
+        },
+        {
+          "customer": "Customer 25",
+          "category": "Grocery",
+          "clv": 30000
+        },
+        {
+          "customer": "Customer 25",
+          "category": "Household",
+          "clv": 1000
+        },
+        {
+          "customer": "Customer 25",
+          "category": "Personal Care",
+          "clv": 1500
+        },
+        {
+          "customer": "Customer 27",
+          "category": "Grocery",
+          "clv": 31000
+        },
+        {
+          "customer": "Customer 27",
+          "category": "Household",
+          "clv": 1000
+        },
+        {
+          "customer": "Customer 27",
+          "category": "Personal Care",
+          "clv": 900
+        },
+        {
+          "customer": "Customer 33",
+          "category": "Beverage",
+          "clv": 2500
+        },
+        {
+          "customer": "Customer 33",
+          "category": "Grocery",
+          "clv": 35500
+        },
+        {
+          "customer": "Customer 33",
+          "category": "Household",
+          "clv": 5000
+        },
+        {
+          "customer": "Customer 33",
+          "category": "Personal Care",
+          "clv": 300
+        },
+        {
+          "customer": "Customer 4",
+          "category": "Grocery",
+          "clv": 32000
+        },
+        {
+          "customer": "Customer 4",
+          "category": "Household",
+          "clv": 1500
+        },
+        {
+          "customer": "Customer 4",
+          "category": "Personal Care",
+          "clv": 3900
+        },
+        {
+          "customer": "Customer 40",
+          "category": "Beverage",
+          "clv": 4500
+        },
+        {
+          "customer": "Customer 40",
+          "category": "Grocery",
+          "clv": 19000
+        },
+        {
+          "customer": "Customer 40",
+          "category": "Household",
+          "clv": 3000
+        },
+        {
+          "customer": "Customer 40",
+          "category": "Personal Care",
+          "clv": 900
+        },
+        {
+          "customer": "Customer 44",
+          "category": "Beverage",
+          "clv": 6000
+        },
+        {
+          "customer": "Customer 44",
+          "category": "Grocery",
+          "clv": 16000
+        },
+        {
+          "customer": "Customer 44",
+          "category": "Household",
+          "clv": 500
+        },
+        {
+          "customer": "Customer 44",
+          "category": "Personal Care",
+          "clv": 2400
+        },
+        {
+          "customer": "Customer 47",
+          "category": "Beverage",
+          "clv": 2500
+        },
+        {
+          "customer": "Customer 47",
+          "category": "Grocery",
+          "clv": 21500
+        },
+        {
+          "customer": "Customer 47",
+          "category": "Household",
+          "clv": 4000
+        },
+        {
+          "customer": "Customer 47",
+          "category": "Personal Care",
+          "clv": 1500
+        },
+        {
+          "customer": "Customer 48",
+          "category": "Grocery",
+          "clv": 22500
+        },
+        {
+          "customer": "Customer 48",
+          "category": "Household",
+          "clv": 3500
+        },
+        {
+          "customer": "Customer 48",
+          "category": "Personal Care",
+          "clv": 900
+        },
+        {
+          "customer": "Customer 49",
+          "category": "Beverage",
+          "clv": 4000
+        },
+        {
+          "customer": "Customer 49",
+          "category": "Grocery",
+          "clv": 24000
+        },
+        {
+          "customer": "Customer 49",
+          "category": "Household",
+          "clv": 2000
+        },
+        {
+          "customer": "Customer 5",
+          "category": "Grocery",
+          "clv": 28000
+        },
+        {
+          "customer": "Customer 5",
+          "category": "Household",
+          "clv": 2500
+        },
+        {
+          "customer": "Customer 6",
+          "category": "Beverage",
+          "clv": 4000
+        },
+        {
+          "customer": "Customer 6",
+          "category": "Grocery",
+          "clv": 30000
+        },
+        {
+          "customer": "Customer 6",
+          "category": "Household",
+          "clv": 4500
+        }
+      ],
+      "repeat_vs_new": {
+        "repeat": 44,
+        "new": 5,
+        "repeat_pct": 89.8,
+        "new_pct": 10.2
+      },
+      "frequency_distribution": [
+        {
+          "bucket": "1 Order",
+          "customer_count": 5
+        },
+        {
+          "bucket": "2-5 Orders",
+          "customer_count": 18
+        },
+        {
+          "bucket": "6-10 Orders",
+          "customer_count": 20
+        },
+        {
+          "bucket": "11+ Orders",
+          "customer_count": 6
+        }
+      ]
+    },
+    "customer_detail_table": [
+      {
+        "customer_name": "Customer 15",
+        "customer_phone": "08022575562",
+        "total_spent": 400000,
+        "total_visits": 11,
+        "last_visit_date": "11/02/2025 12:00:00 AM",
+        "clv": 43600
+      },
+      {
+        "customer_name": "Customer 33",
+        "customer_phone": "08055667651",
+        "total_spent": 387000,
+        "total_visits": 13,
+        "last_visit_date": "12/07/2025 12:00:00 AM",
+        "clv": 43300
+      },
+      {
+        "customer_name": "Customer 6",
+        "customer_phone": "08039958838",
+        "total_spent": 341500,
+        "total_visits": 13,
+        "last_visit_date": "12/22/2025 12:00:00 AM",
+        "clv": 38500
+      },
+      {
+        "customer_name": "Customer 4",
+        "customer_phone": "08046913810",
+        "total_spent": 329500,
+        "total_visits": 16,
+        "last_visit_date": "12/09/2025 12:00:00 AM",
+        "clv": 37400
+      },
+      {
+        "customer_name": "Customer 27",
+        "customer_phone": "08070291817",
+        "total_spent": 309500,
+        "total_visits": 9,
+        "last_visit_date": "10/25/2025 12:00:00 AM",
+        "clv": 32900
+      },
+      {
+        "customer_name": "Customer 25",
+        "customer_phone": "08066306997",
+        "total_spent": 306000,
+        "total_visits": 9,
+        "last_visit_date": "09/19/2025 12:00:00 AM",
+        "clv": 35000
+      },
+      {
+        "customer_name": "Customer 17",
+        "customer_phone": "08041227216",
+        "total_spent": 295500,
+        "total_visits": 11,
+        "last_visit_date": "12/05/2025 12:00:00 AM",
+        "clv": 32400
+      },
+      {
+        "customer_name": "Customer 2",
+        "customer_phone": "08024942603",
+        "total_spent": 284000,
+        "total_visits": 8,
+        "last_visit_date": "12/26/2025 12:00:00 AM",
+        "clv": 31000
+      },
+      {
+        "customer_name": "Customer 5",
+        "customer_phone": "08042868828",
+        "total_spent": 279500,
+        "total_visits": 6,
+        "last_visit_date": "08/21/2025 12:00:00 AM",
+        "clv": 30500
+      },
+      {
+        "customer_name": "Customer 16",
+        "customer_phone": "08039345092",
+        "total_spent": 273000,
+        "total_visits": 7,
+        "last_visit_date": "10/04/2025 12:00:00 AM",
+        "clv": 30000
+      },
+      {
+        "customer_name": "Customer 49",
+        "customer_phone": "08026753883",
+        "total_spent": 267000,
+        "total_visits": 10,
+        "last_visit_date": "12/19/2025 12:00:00 AM",
+        "clv": 30000
+      },
+      {
+        "customer_name": "Customer 47",
+        "customer_phone": "08071662963",
+        "total_spent": 257000,
+        "total_visits": 10,
+        "last_visit_date": "12/28/2025 12:00:00 AM",
+        "clv": 29500
+      },
+      {
+        "customer_name": "Customer 48",
+        "customer_phone": "08081971316",
+        "total_spent": 247000,
+        "total_visits": 9,
+        "last_visit_date": "12/20/2025 12:00:00 AM",
+        "clv": 26900
+      },
+      {
+        "customer_name": "Customer 40",
+        "customer_phone": "08060992979",
+        "total_spent": 227000,
+        "total_visits": 10,
+        "last_visit_date": "11/17/2025 12:00:00 AM",
+        "clv": 27400
+      },
+      {
+        "customer_name": "Customer 41",
+        "customer_phone": "08022981052",
+        "total_spent": 220000,
+        "total_visits": 8,
+        "last_visit_date": "11/10/2025 12:00:00 AM",
+        "clv": 23900
+      },
+      {
+        "customer_name": "Customer 44",
+        "customer_phone": "08091030736",
+        "total_spent": 208500,
+        "total_visits": 12,
+        "last_visit_date": "10/29/2025 12:00:00 AM",
+        "clv": 24900
+      },
+      {
+        "customer_name": "Customer 3",
+        "customer_phone": "08013356886",
+        "total_spent": 186500,
+        "total_visits": 9,
+        "last_visit_date": "09/10/2025 12:00:00 AM",
+        "clv": 22000
+      },
+      {
+        "customer_name": "Customer 18",
+        "customer_phone": "08077827638",
+        "total_spent": 171000,
+        "total_visits": 7,
+        "last_visit_date": "12/14/2025 12:00:00 AM",
+        "clv": 20300
+      },
+      {
+        "customer_name": "Customer 37",
+        "customer_phone": "08055176955",
+        "total_spent": 166000,
+        "total_visits": 5,
+        "last_visit_date": "11/05/2025 12:00:00 AM",
+        "clv": 19100
+      },
+      {
+        "customer_name": "Customer 42",
+        "customer_phone": "08058181396",
+        "total_spent": 160000,
+        "total_visits": 4,
+        "last_visit_date": "12/23/2025 12:00:00 AM",
+        "clv": 16500
+      }
+    ]
+  },
+  "page_4": {
+    "kpis": {
+      "total_expenses": 8563179.0,
+      "operating_profit": -7701279.0,
+      "net_profit": -7701279.0,
+      "expense_share": 100.0,
+      "expense_to_sales_ratio": 113.25,
+      "monthly_avg_expense": 713598.25,
+      "ytd_expenses": 8563179.0,
+      "operating_profit_margin": -101.85,
+      "net_profit_margin": -101.85
+    },
+    "charts": {
+      "expense_trend": [
+        {
+          "date": "2025-01-07 00:00:00",
+          "expenses": 66308,
+          "date_str": "Tuesday, January 07, 2025"
+        },
+        {
+          "date": "2025-01-10 00:00:00",
+          "expenses": 309183,
+          "date_str": "Friday, January 10, 2025"
+        },
+        {
+          "date": "2025-01-11 00:00:00",
+          "expenses": 27861,
+          "date_str": "Saturday, January 11, 2025"
+        },
+        {
+          "date": "2025-01-23 00:00:00",
+          "expenses": 323011,
+          "date_str": "Thursday, January 23, 2025"
+        },
+        {
+          "date": "2025-02-04 00:00:00",
+          "expenses": 324395,
+          "date_str": "Tuesday, February 04, 2025"
+        },
+        {
+          "date": "2025-02-09 00:00:00",
+          "expenses": 59715,
+          "date_str": "Sunday, February 09, 2025"
+        },
+        {
+          "date": "2025-02-12 00:00:00",
+          "expenses": 254183,
+          "date_str": "Wednesday, February 12, 2025"
+        },
+        {
+          "date": "2025-02-22 00:00:00",
+          "expenses": 28899,
+          "date_str": "Saturday, February 22, 2025"
+        },
+        {
+          "date": "2025-02-26 00:00:00",
+          "expenses": 51823,
+          "date_str": "Wednesday, February 26, 2025"
+        },
+        {
+          "date": "2025-03-10 00:00:00",
+          "expenses": 20689,
+          "date_str": "Monday, March 10, 2025"
+        },
+        {
+          "date": "2025-03-12 00:00:00",
+          "expenses": 67665,
+          "date_str": "Wednesday, March 12, 2025"
+        },
+        {
+          "date": "2025-03-13 00:00:00",
+          "expenses": 313084,
+          "date_str": "Thursday, March 13, 2025"
+        },
+        {
+          "date": "2025-03-26 00:00:00",
+          "expenses": 317399,
+          "date_str": "Wednesday, March 26, 2025"
+        },
+        {
+          "date": "2025-04-03 00:00:00",
+          "expenses": 45674,
+          "date_str": "Thursday, April 03, 2025"
+        },
+        {
+          "date": "2025-04-09 00:00:00",
+          "expenses": 327244,
+          "date_str": "Wednesday, April 09, 2025"
+        },
+        {
+          "date": "2025-04-10 00:00:00",
+          "expenses": 256700,
+          "date_str": "Thursday, April 10, 2025"
+        },
+        {
+          "date": "2025-04-15 00:00:00",
+          "expenses": 65747,
+          "date_str": "Tuesday, April 15, 2025"
+        },
+        {
+          "date": "2025-04-16 00:00:00",
+          "expenses": 23505,
+          "date_str": "Wednesday, April 16, 2025"
+        },
+        {
+          "date": "2025-05-04 00:00:00",
+          "expenses": 30087,
+          "date_str": "Sunday, May 04, 2025"
+        },
+        {
+          "date": "2025-05-07 00:00:00",
+          "expenses": 258565,
+          "date_str": "Wednesday, May 07, 2025"
+        },
+        {
+          "date": "2025-05-09 00:00:00",
+          "expenses": 317249,
+          "date_str": "Friday, May 09, 2025"
+        },
+        {
+          "date": "2025-05-18 00:00:00",
+          "expenses": 110848,
+          "date_str": "Sunday, May 18, 2025"
+        },
+        {
+          "date": "2025-06-02 00:00:00",
+          "expenses": 65974,
+          "date_str": "Monday, June 02, 2025"
+        },
+        {
+          "date": "2025-06-08 00:00:00",
+          "expenses": 43972,
+          "date_str": "Sunday, June 08, 2025"
+        },
+        {
+          "date": "2025-06-17 00:00:00",
+          "expenses": 318697,
+          "date_str": "Tuesday, June 17, 2025"
+        },
+        {
+          "date": "2025-06-21 00:00:00",
+          "expenses": 23814,
+          "date_str": "Saturday, June 21, 2025"
+        },
+        {
+          "date": "2025-06-24 00:00:00",
+          "expenses": 254614,
+          "date_str": "Tuesday, June 24, 2025"
+        },
+        {
+          "date": "2025-07-02 00:00:00",
+          "expenses": 246641,
+          "date_str": "Wednesday, July 02, 2025"
+        },
+        {
+          "date": "2025-07-04 00:00:00",
+          "expenses": 326160,
+          "date_str": "Friday, July 04, 2025"
+        },
+        {
+          "date": "2025-07-14 00:00:00",
+          "expenses": 45411,
+          "date_str": "Monday, July 14, 2025"
+        },
+        {
+          "date": "2025-07-23 00:00:00",
+          "expenses": 62739,
+          "date_str": "Wednesday, July 23, 2025"
+        },
+        {
+          "date": "2025-07-25 00:00:00",
+          "expenses": 22252,
+          "date_str": "Friday, July 25, 2025"
+        },
+        {
+          "date": "2025-08-01 00:00:00",
+          "expenses": 254016,
+          "date_str": "Friday, August 01, 2025"
+        },
+        {
+          "date": "2025-08-06 00:00:00",
+          "expenses": 46666,
+          "date_str": "Wednesday, August 06, 2025"
+        },
+        {
+          "date": "2025-08-16 00:00:00",
+          "expenses": 322822,
+          "date_str": "Saturday, August 16, 2025"
+        },
+        {
+          "date": "2025-08-21 00:00:00",
+          "expenses": 92695,
+          "date_str": "Thursday, August 21, 2025"
+        },
+        {
+          "date": "2025-09-11 00:00:00",
+          "expenses": 44676,
+          "date_str": "Thursday, September 11, 2025"
+        },
+        {
+          "date": "2025-09-21 00:00:00",
+          "expenses": 85375,
+          "date_str": "Sunday, September 21, 2025"
+        },
+        {
+          "date": "2025-09-25 00:00:00",
+          "expenses": 566171,
+          "date_str": "Thursday, September 25, 2025"
+        },
+        {
+          "date": "2025-10-06 00:00:00",
+          "expenses": 321846,
+          "date_str": "Monday, October 06, 2025"
+        },
+        {
+          "date": "2025-10-08 00:00:00",
+          "expenses": 253767,
+          "date_str": "Wednesday, October 08, 2025"
+        },
+        {
+          "date": "2025-10-24 00:00:00",
+          "expenses": 51847,
+          "date_str": "Friday, October 24, 2025"
+        },
+        {
+          "date": "2025-10-27 00:00:00",
+          "expenses": 22880,
+          "date_str": "Monday, October 27, 2025"
+        },
+        {
+          "date": "2025-10-28 00:00:00",
+          "expenses": 55611,
+          "date_str": "Tuesday, October 28, 2025"
+        },
+        {
+          "date": "2025-11-02 00:00:00",
+          "expenses": 258700,
+          "date_str": "Sunday, November 02, 2025"
+        },
+        {
+          "date": "2025-11-10 00:00:00",
+          "expenses": 34364,
+          "date_str": "Monday, November 10, 2025"
+        },
+        {
+          "date": "2025-11-13 00:00:00",
+          "expenses": 52909,
+          "date_str": "Thursday, November 13, 2025"
+        },
+        {
+          "date": "2025-11-16 00:00:00",
+          "expenses": 58052,
+          "date_str": "Sunday, November 16, 2025"
+        },
+        {
+          "date": "2025-11-24 00:00:00",
+          "expenses": 329291,
+          "date_str": "Monday, November 24, 2025"
+        },
+        {
+          "date": "2025-12-02 00:00:00",
+          "expenses": 245151,
+          "date_str": "Tuesday, December 02, 2025"
+        },
+        {
+          "date": "2025-12-10 00:00:00",
+          "expenses": 49305,
+          "date_str": "Wednesday, December 10, 2025"
+        },
+        {
+          "date": "2025-12-11 00:00:00",
+          "expenses": 319662,
+          "date_str": "Thursday, December 11, 2025"
+        },
+        {
+          "date": "2025-12-15 00:00:00",
+          "expenses": 30507,
+          "date_str": "Monday, December 15, 2025"
+        },
+        {
+          "date": "2025-12-20 00:00:00",
+          "expenses": 56758,
+          "date_str": "Saturday, December 20, 2025"
+        }
+      ],
+      "expense_moving_avg": [
+        {
+          "month": "2025-01",
+          "month_short": "Jan",
+          "amount": 726363,
+          "moving_avg": 726363.0
+        },
+        {
+          "month": "2025-02",
+          "month_short": "Feb",
+          "amount": 719015,
+          "moving_avg": 722689.0
+        },
+        {
+          "month": "2025-03",
+          "month_short": "Mar",
+          "amount": 718837,
+          "moving_avg": 721405.0
+        },
+        {
+          "month": "2025-04",
+          "month_short": "Apr",
+          "amount": 718870,
+          "moving_avg": 718907.3333333334
+        },
+        {
+          "month": "2025-05",
+          "month_short": "May",
+          "amount": 716749,
+          "moving_avg": 718152.0
+        },
+        {
+          "month": "2025-06",
+          "month_short": "Jun",
+          "amount": 707071,
+          "moving_avg": 714230.0
+        },
+        {
+          "month": "2025-07",
+          "month_short": "Jul",
+          "amount": 703203,
+          "moving_avg": 709007.6666666666
+        },
+        {
+          "month": "2025-08",
+          "month_short": "Aug",
+          "amount": 716199,
+          "moving_avg": 708824.3333333334
+        },
+        {
+          "month": "2025-09",
+          "month_short": "Sep",
+          "amount": 696222,
+          "moving_avg": 705208.0
+        },
+        {
+          "month": "2025-10",
+          "month_short": "Oct",
+          "amount": 705951,
+          "moving_avg": 706124.0
+        },
+        {
+          "month": "2025-11",
+          "month_short": "Nov",
+          "amount": 733316,
+          "moving_avg": 711829.6666666666
+        },
+        {
+          "month": "2025-12",
+          "month_short": "Dec",
+          "amount": 701383,
+          "moving_avg": 713550.0
+        }
+      ],
+      "expense_by_category": [],
+      "expense_vs_sales": [
+        {
+          "month": "2025-01",
+          "expenses": 726363,
+          "sales": 437000,
+          "month_short": "Jan"
+        },
+        {
+          "month": "2025-02",
+          "expenses": 719015,
+          "sales": 372500,
+          "month_short": "Feb"
+        },
+        {
+          "month": "2025-03",
+          "expenses": 718837,
+          "sales": 645000,
+          "month_short": "Mar"
+        },
+        {
+          "month": "2025-04",
+          "expenses": 718870,
+          "sales": 634000,
+          "month_short": "Apr"
+        },
+        {
+          "month": "2025-05",
+          "expenses": 716749,
+          "sales": 728000,
+          "month_short": "May"
+        },
+        {
+          "month": "2025-06",
+          "expenses": 707071,
+          "sales": 607000,
+          "month_short": "Jun"
+        },
+        {
+          "month": "2025-07",
+          "expenses": 703203,
+          "sales": 860500,
+          "month_short": "Jul"
+        },
+        {
+          "month": "2025-08",
+          "expenses": 716199,
+          "sales": 589500,
+          "month_short": "Aug"
+        },
+        {
+          "month": "2025-09",
+          "expenses": 696222,
+          "sales": 827500,
+          "month_short": "Sep"
+        },
+        {
+          "month": "2025-10",
+          "expenses": 705951,
+          "sales": 744500,
+          "month_short": "Oct"
+        },
+        {
+          "month": "2025-11",
+          "expenses": 733316,
+          "sales": 526500,
+          "month_short": "Nov"
+        },
+        {
+          "month": "2025-12",
+          "expenses": 701383,
+          "sales": 589500,
+          "month_short": "Dec"
+        }
+      ],
+      "monthly_expense_breakdown": [],
+      "operating_profit_waterfall": {
+        "gross_profit": 861900.0,
+        "total_expenses": 8563179.0,
+        "operating_profit": -7701279.0,
+        "steps": [
+          {
+            "label": "Gross Profit",
+            "value": 861900.0,
+            "type": "start"
+          },
+          {
+            "label": "Operating Profit",
+            "value": -7701279.0,
+            "type": "end"
+          }
+        ]
+      }
+    },
+    "expense_detail_table": [
+      {
+        "date": "Wednesday, October 08, 2025",
+        "amount": 253767,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, May 07, 2025",
+        "amount": 258565,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, March 26, 2025",
+        "amount": 317399,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, March 12, 2025",
+        "amount": 67665,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, July 23, 2025",
+        "amount": 62739,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, July 02, 2025",
+        "amount": 246641,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, February 26, 2025",
+        "amount": 51823,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, February 12, 2025",
+        "amount": 254183,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, December 10, 2025",
+        "amount": 49305,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, August 06, 2025",
+        "amount": 46666,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, April 16, 2025",
+        "amount": 23505,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Wednesday, April 09, 2025",
+        "amount": 327244,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, October 28, 2025",
+        "amount": 55611,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, June 24, 2025",
+        "amount": 254614,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, June 17, 2025",
+        "amount": 318697,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, January 07, 2025",
+        "amount": 66308,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, February 04, 2025",
+        "amount": 324395,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, December 02, 2025",
+        "amount": 245151,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Tuesday, April 15, 2025",
+        "amount": 65747,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, September 25, 2025",
+        "amount": 249706,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, September 25, 2025",
+        "amount": 316465,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, September 11, 2025",
+        "amount": 44676,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, November 13, 2025",
+        "amount": 52909,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, March 13, 2025",
+        "amount": 53408,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, March 13, 2025",
+        "amount": 259676,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, January 23, 2025",
+        "amount": 323011,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, December 11, 2025",
+        "amount": 319662,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, August 21, 2025",
+        "amount": 69428,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, August 21, 2025",
+        "amount": 23267,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, April 10, 2025",
+        "amount": 256700,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Thursday, April 03, 2025",
+        "amount": 45674,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, September 21, 2025",
+        "amount": 29406,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, September 21, 2025",
+        "amount": 55969,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, November 16, 2025",
+        "amount": 58052,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, November 02, 2025",
+        "amount": 258700,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, May 18, 2025",
+        "amount": 66406,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, May 18, 2025",
+        "amount": 44442,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, May 04, 2025",
+        "amount": 30087,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, June 08, 2025",
+        "amount": 43972,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Sunday, February 09, 2025",
+        "amount": 59715,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Saturday, June 21, 2025",
+        "amount": 23814,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Saturday, January 11, 2025",
+        "amount": 27861,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Saturday, February 22, 2025",
+        "amount": 28899,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Saturday, December 20, 2025",
+        "amount": 56758,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Saturday, August 16, 2025",
+        "amount": 322822,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, October 27, 2025",
+        "amount": 22880,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, October 06, 2025",
+        "amount": 321846,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, November 24, 2025",
+        "amount": 329291,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, November 10, 2025",
+        "amount": 34364,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, March 10, 2025",
+        "amount": 20689,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, June 02, 2025",
+        "amount": 65974,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, July 14, 2025",
+        "amount": 45411,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Monday, December 15, 2025",
+        "amount": 30507,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, October 24, 2025",
+        "amount": 51847,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, May 09, 2025",
+        "amount": 317249,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, July 25, 2025",
+        "amount": 22252,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, July 04, 2025",
+        "amount": 326160,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, January 10, 2025",
+        "amount": 257634,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, January 10, 2025",
+        "amount": 51549,
+        "paid_to": "Service Provider",
+        "notes": ""
+      },
+      {
+        "date": "Friday, August 01, 2025",
+        "amount": 254016,
+        "paid_to": "Service Provider",
+        "notes": ""
+      }
+    ]
+  },
+  "page_5": {
+    "status": "success",
+    "kpis": {
+      "total_forecasted_sales": 733886.36,
+      "total_forecasted_profit": 83652.27,
+      "sales_growth_rate": 2.53,
+      "forecast_confidence": 85.0,
+      "historical_profit_margin": 11.4
+    },
+    "charts": {
+      "forecast_line": [
+        {
+          "date": "2025-10-03",
+          "sales": 47500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-04",
+          "sales": 122500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-05",
+          "sales": 10500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-09",
+          "sales": 82500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-11",
+          "sales": 74000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-13",
+          "sales": 47500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-17",
+          "sales": 17500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-19",
+          "sales": 67500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-21",
+          "sales": 9500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-23",
+          "sales": 7500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-24",
+          "sales": 3500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-25",
+          "sales": 47500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-26",
+          "sales": 38000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-27",
+          "sales": 34000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-28",
+          "sales": 47500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-29",
+          "sales": 38000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-30",
+          "sales": 40500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-31",
+          "sales": 9000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-01",
+          "sales": 100000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-02",
+          "sales": 75500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-05",
+          "sales": 80000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-07",
+          "sales": 1500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-09",
+          "sales": 12000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-10",
+          "sales": 15000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-12",
+          "sales": 7000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-13",
+          "sales": 12000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-14",
+          "sales": 12000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-16",
+          "sales": 40500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-17",
+          "sales": 12000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-18",
+          "sales": 3000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-19",
+          "sales": 47500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-21",
+          "sales": 67500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-22",
+          "sales": 30500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-29",
+          "sales": 10500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-02",
+          "sales": 45500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-04",
+          "sales": 13500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-05",
+          "sales": 67500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-06",
+          "sales": 82500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-07",
+          "sales": 10500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-08",
+          "sales": 10500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-09",
+          "sales": 28500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-14",
+          "sales": 107500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-16",
+          "sales": 20000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-19",
+          "sales": 23000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-20",
+          "sales": 52500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-22",
+          "sales": 38000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-23",
+          "sales": 38000,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-26",
+          "sales": 40500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-28",
+          "sales": 8500,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-31",
+          "sales": 3000,
+          "type": "historical"
+        },
+        {
+          "date": "2026-01-01",
+          "sales": 27609.39,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-02",
+          "sales": 27232.89,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-03",
+          "sales": 26856.4,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-04",
+          "sales": 26479.9,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-05",
+          "sales": 26103.41,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-06",
+          "sales": 25726.91,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-07",
+          "sales": 25350.42,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-08",
+          "sales": 24973.93,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-09",
+          "sales": 24597.43,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-10",
+          "sales": 24220.94,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-11",
+          "sales": 23844.44,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-12",
+          "sales": 23467.95,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-13",
+          "sales": 23091.45,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-14",
+          "sales": 22714.96,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-15",
+          "sales": 22338.46,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-16",
+          "sales": 21961.97,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-17",
+          "sales": 21585.47,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-18",
+          "sales": 21208.98,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-19",
+          "sales": 20832.48,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-20",
+          "sales": 20455.99,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-21",
+          "sales": 20079.5,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-22",
+          "sales": 19703.0,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-23",
+          "sales": 19326.51,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-24",
+          "sales": 18950.01,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-25",
+          "sales": 18573.52,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-26",
+          "sales": 18197.02,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-27",
+          "sales": 17820.53,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-28",
+          "sales": 17444.03,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-29",
+          "sales": 17067.54,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-30",
+          "sales": 16691.04,
+          "type": "forecast"
+        }
+      ],
+      "category_prediction": [
+        {
+          "category": "Beverage",
+          "current_sales": 459000,
+          "forecasted_sales": 470628.0874451872,
+          "forecast_share_pct": 6.1
+        },
+        {
+          "category": "Grocery",
+          "current_sales": 6302000,
+          "forecasted_sales": 6461651.867275751,
+          "forecast_share_pct": 83.3
+        },
+        {
+          "category": "Household",
+          "current_sales": 616000,
+          "forecasted_sales": 631605.4506889659,
+          "forecast_share_pct": 8.1
+        },
+        {
+          "category": "Personal Care",
+          "current_sales": 184500,
+          "forecasted_sales": 189174.03514953604,
+          "forecast_share_pct": 2.4
+        }
+      ],
+      "top_item_forecast_table": [
+        {
+          "rank": 1,
+          "product": "Rice 10kg",
+          "day_30_forecast": 226666.67,
+          "total_sales": 2720000,
+          "target_sales": 3264000.0
+        },
+        {
+          "rank": 2,
+          "product": "Palm Oil 5L",
+          "day_30_forecast": 163125.0,
+          "total_sales": 1957500,
+          "target_sales": 2349000.0
+        },
+        {
+          "rank": 3,
+          "product": "Indomie Carton",
+          "day_30_forecast": 135375.0,
+          "total_sales": 1624500,
+          "target_sales": 1949400.0
+        },
+        {
+          "rank": 4,
+          "product": "Detergent",
+          "day_30_forecast": 51333.33,
+          "total_sales": 616000,
+          "target_sales": 739200.0
+        },
+        {
+          "rank": 5,
+          "product": "Soft Drink Crate",
+          "day_30_forecast": 41727.27,
+          "total_sales": 459000,
+          "target_sales": 550800.0
+        },
+        {
+          "rank": 6,
+          "product": "Toothpaste",
+          "day_30_forecast": 15375.0,
+          "total_sales": 184500,
+          "target_sales": 221400.0
+        }
+      ],
+      "expected_profit_trend": {
+        "historical": [
+          {
+            "date": "2025-11-01",
+            "profit": 10000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-02",
+            "profit": 10000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-05",
+            "profit": 8000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-07",
+            "profit": 300,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-09",
+            "profit": 2000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-10",
+            "profit": 2500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-12",
+            "profit": 1000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-13",
+            "profit": 2000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-14",
+            "profit": 2000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-16",
+            "profit": 4500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-17",
+            "profit": 2000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-18",
+            "profit": 600,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-19",
+            "profit": 5000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-21",
+            "profit": 7500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-22",
+            "profit": 3500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-29",
+            "profit": 1500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-02",
+            "profit": 5300,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-04",
+            "profit": 1500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-05",
+            "profit": 7500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-06",
+            "profit": 10000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-07",
+            "profit": 1500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-08",
+            "profit": 1500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-09",
+            "profit": 3000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-14",
+            "profit": 11000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-16",
+            "profit": 2000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-19",
+            "profit": 3500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-20",
+            "profit": 6500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-22",
+            "profit": 4000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-23",
+            "profit": 4000,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-26",
+            "profit": 4500,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-28",
+            "profit": 1300,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-31",
+            "profit": 500,
+            "type": "historical"
+          }
+        ],
+        "forecast": [
+          {
+            "date": "2026-01-01",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-02",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-03",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-04",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-05",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-06",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-07",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-08",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-09",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-10",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-11",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-12",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-13",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-14",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-15",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-16",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-17",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-18",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-19",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-20",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-21",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-22",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-23",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-24",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-25",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-26",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-27",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-28",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-29",
+            "profit": 4143.75,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-30",
+            "profit": 4143.75,
+            "type": "forecast"
+          }
+        ],
+        "profit_margin_trend": [
+          {
+            "date": "2025-11-01",
+            "profit_margin_pct": 10.0
+          },
+          {
+            "date": "2025-11-02",
+            "profit_margin_pct": 13.245033112582782
+          },
+          {
+            "date": "2025-11-05",
+            "profit_margin_pct": 10.0
+          },
+          {
+            "date": "2025-11-07",
+            "profit_margin_pct": 20.0
+          },
+          {
+            "date": "2025-11-09",
+            "profit_margin_pct": 16.666666666666664
+          },
+          {
+            "date": "2025-11-10",
+            "profit_margin_pct": 16.666666666666664
+          },
+          {
+            "date": "2025-11-12",
+            "profit_margin_pct": 14.285714285714285
+          },
+          {
+            "date": "2025-11-13",
+            "profit_margin_pct": 16.666666666666664
+          },
+          {
+            "date": "2025-11-14",
+            "profit_margin_pct": 16.666666666666664
+          },
+          {
+            "date": "2025-11-16",
+            "profit_margin_pct": 11.11111111111111
+          },
+          {
+            "date": "2025-11-17",
+            "profit_margin_pct": 16.666666666666664
+          },
+          {
+            "date": "2025-11-18",
+            "profit_margin_pct": 20.0
+          },
+          {
+            "date": "2025-11-19",
+            "profit_margin_pct": 10.526315789473683
+          },
+          {
+            "date": "2025-11-21",
+            "profit_margin_pct": 11.11111111111111
+          },
+          {
+            "date": "2025-11-22",
+            "profit_margin_pct": 11.475409836065573
+          },
+          {
+            "date": "2025-11-29",
+            "profit_margin_pct": 14.285714285714285
+          },
+          {
+            "date": "2025-12-02",
+            "profit_margin_pct": 11.648351648351648
+          },
+          {
+            "date": "2025-12-04",
+            "profit_margin_pct": 11.11111111111111
+          },
+          {
+            "date": "2025-12-05",
+            "profit_margin_pct": 11.11111111111111
+          },
+          {
+            "date": "2025-12-06",
+            "profit_margin_pct": 12.121212121212121
+          },
+          {
+            "date": "2025-12-07",
+            "profit_margin_pct": 14.285714285714285
+          },
+          {
+            "date": "2025-12-08",
+            "profit_margin_pct": 14.285714285714285
+          },
+          {
+            "date": "2025-12-09",
+            "profit_margin_pct": 10.526315789473683
+          },
+          {
+            "date": "2025-12-14",
+            "profit_margin_pct": 10.232558139534884
+          },
+          {
+            "date": "2025-12-16",
+            "profit_margin_pct": 10.0
+          },
+          {
+            "date": "2025-12-19",
+            "profit_margin_pct": 15.217391304347828
+          },
+          {
+            "date": "2025-12-20",
+            "profit_margin_pct": 12.380952380952381
+          },
+          {
+            "date": "2025-12-22",
+            "profit_margin_pct": 10.526315789473683
+          },
+          {
+            "date": "2025-12-23",
+            "profit_margin_pct": 10.526315789473683
+          },
+          {
+            "date": "2025-12-26",
+            "profit_margin_pct": 11.11111111111111
+          },
+          {
+            "date": "2025-12-28",
+            "profit_margin_pct": 15.294117647058824
+          },
+          {
+            "date": "2025-12-31",
+            "profit_margin_pct": 16.666666666666664
+          }
+        ],
+        "avg_margin": 13.3
+      },
+      "seasonality_pattern": {
+        "sales_by_day_of_week": [
+          {
+            "day": "Monday",
+            "avg_sales": 26882.978723404256,
+            "day_short": "Mon"
+          },
+          {
+            "day": "Tuesday",
+            "avg_sales": 21960.78431372549,
+            "day_short": "Tue"
+          },
+          {
+            "day": "Wednesday",
+            "avg_sales": 27647.058823529413,
+            "day_short": "Wed"
+          },
+          {
+            "day": "Thursday",
+            "avg_sales": 22812.5,
+            "day_short": "Thu"
+          },
+          {
+            "day": "Friday",
+            "avg_sales": 25228.571428571428,
+            "day_short": "Fri"
+          },
+          {
+            "day": "Saturday",
+            "avg_sales": 26606.382978723403,
+            "day_short": "Sat"
+          },
+          {
+            "day": "Sunday",
+            "avg_sales": 25913.043478260868,
+            "day_short": "Sun"
+          }
+        ],
+        "sales_by_month": [
+          {
+            "month": "January",
+            "avg_sales": 21850.0,
+            "month_short": "Jan"
+          },
+          {
+            "month": "February",
+            "avg_sales": 16195.652173913044,
+            "month_short": "Feb"
+          },
+          {
+            "month": "March",
+            "avg_sales": 20156.25,
+            "month_short": "Mar"
+          },
+          {
+            "month": "April",
+            "avg_sales": 30190.47619047619,
+            "month_short": "Apr"
+          },
+          {
+            "month": "May",
+            "avg_sales": 26962.962962962964,
+            "month_short": "May"
+          },
+          {
+            "month": "June",
+            "avg_sales": 26391.304347826088,
+            "month_short": "Jun"
+          },
+          {
+            "month": "July",
+            "avg_sales": 30732.14285714286,
+            "month_short": "Jul"
+          },
+          {
+            "month": "August",
+            "avg_sales": 19016.129032258064,
+            "month_short": "Aug"
+          },
+          {
+            "month": "September",
+            "avg_sales": 37613.63636363636,
+            "month_short": "Sep"
+          },
+          {
+            "month": "October",
+            "avg_sales": 29780.0,
+            "month_short": "Oct"
+          },
+          {
+            "month": "November",
+            "avg_sales": 23931.81818181818,
+            "month_short": "Nov"
+          },
+          {
+            "month": "December",
+            "avg_sales": 22673.076923076922,
+            "month_short": "Dec"
+          }
+        ],
+        "weekday_vs_weekend": [
+          {
+            "type": "Weekday",
+            "avg_sales": 24729.47
+          },
+          {
+            "type": "Weekend",
+            "avg_sales": 26263.44
+          }
+        ],
+        "sales_heatmap": [
+          {
+            "month": "April",
+            "day": "Friday",
+            "avg_sales": 28500.0
+          },
+          {
+            "month": "April",
+            "day": "Monday",
+            "avg_sales": 25500.0
+          },
+          {
+            "month": "April",
+            "day": "Saturday",
+            "avg_sales": 29250.0
+          },
+          {
+            "month": "April",
+            "day": "Sunday",
+            "avg_sales": 11500.0
+          },
+          {
+            "month": "April",
+            "day": "Thursday",
+            "avg_sales": 44666.67
+          },
+          {
+            "month": "April",
+            "day": "Tuesday",
+            "avg_sales": 4500.0
+          },
+          {
+            "month": "April",
+            "day": "Wednesday",
+            "avg_sales": 38700.0
+          },
+          {
+            "month": "August",
+            "day": "Friday",
+            "avg_sales": 16500.0
+          },
+          {
+            "month": "August",
+            "day": "Monday",
+            "avg_sales": 23700.0
+          },
+          {
+            "month": "August",
+            "day": "Saturday",
+            "avg_sales": 25250.0
+          },
+          {
+            "month": "August",
+            "day": "Sunday",
+            "avg_sales": 16600.0
+          },
+          {
+            "month": "August",
+            "day": "Thursday",
+            "avg_sales": 19000.0
+          },
+          {
+            "month": "August",
+            "day": "Tuesday",
+            "avg_sales": 18142.86
+          },
+          {
+            "month": "December",
+            "day": "Friday",
+            "avg_sales": 26200.0
+          },
+          {
+            "month": "December",
+            "day": "Monday",
+            "avg_sales": 24250.0
+          },
+          {
+            "month": "December",
+            "day": "Saturday",
+            "avg_sales": 22500.0
+          },
+          {
+            "month": "December",
+            "day": "Sunday",
+            "avg_sales": 25300.0
+          },
+          {
+            "month": "December",
+            "day": "Thursday",
+            "avg_sales": 13500.0
+          },
+          {
+            "month": "December",
+            "day": "Tuesday",
+            "avg_sales": 22000.0
+          },
+          {
+            "month": "December",
+            "day": "Wednesday",
+            "avg_sales": 3000.0
+          },
+          {
+            "month": "February",
+            "day": "Friday",
+            "avg_sales": 9200.0
+          },
+          {
+            "month": "February",
+            "day": "Monday",
+            "avg_sales": 19875.0
+          },
+          {
+            "month": "February",
+            "day": "Saturday",
+            "avg_sales": 20000.0
+          },
+          {
+            "month": "February",
+            "day": "Sunday",
+            "avg_sales": 7750.0
+          },
+          {
+            "month": "February",
+            "day": "Thursday",
+            "avg_sales": 16000.0
+          },
+          {
+            "month": "February",
+            "day": "Tuesday",
+            "avg_sales": 10875.0
+          },
+          {
+            "month": "February",
+            "day": "Wednesday",
+            "avg_sales": 52250.0
+          },
+          {
+            "month": "January",
+            "day": "Monday",
+            "avg_sales": 28500.0
+          },
+          {
+            "month": "January",
+            "day": "Sunday",
+            "avg_sales": 27416.67
+          },
+          {
+            "month": "January",
+            "day": "Thursday",
+            "avg_sales": 23750.0
+          },
+          {
+            "month": "January",
+            "day": "Wednesday",
+            "avg_sales": 12166.67
+          },
+          {
+            "month": "July",
+            "day": "Friday",
+            "avg_sales": 80000.0
+          },
+          {
+            "month": "July",
+            "day": "Monday",
+            "avg_sales": 41400.0
+          },
+          {
+            "month": "July",
+            "day": "Saturday",
+            "avg_sales": 25500.0
+          },
+          {
+            "month": "July",
+            "day": "Sunday",
+            "avg_sales": 9000.0
+          },
+          {
+            "month": "July",
+            "day": "Thursday",
+            "avg_sales": 23200.0
+          },
+          {
+            "month": "July",
+            "day": "Tuesday",
+            "avg_sales": 47000.0
+          },
+          {
+            "month": "July",
+            "day": "Wednesday",
+            "avg_sales": 22375.0
+          },
+          {
+            "month": "June",
+            "day": "Friday",
+            "avg_sales": 3000.0
+          },
+          {
+            "month": "June",
+            "day": "Monday",
+            "avg_sales": 22200.0
+          },
+          {
+            "month": "June",
+            "day": "Saturday",
+            "avg_sales": 49000.0
+          },
+          {
+            "month": "June",
+            "day": "Sunday",
+            "avg_sales": 60000.0
+          },
+          {
+            "month": "June",
+            "day": "Thursday",
+            "avg_sales": 9750.0
+          },
+          {
+            "month": "June",
+            "day": "Tuesday",
+            "avg_sales": 13583.33
+          },
+          {
+            "month": "June",
+            "day": "Wednesday",
+            "avg_sales": 28500.0
+          },
+          {
+            "month": "March",
+            "day": "Friday",
+            "avg_sales": 10500.0
+          },
+          {
+            "month": "March",
+            "day": "Monday",
+            "avg_sales": 24150.0
+          },
+          {
+            "month": "March",
+            "day": "Saturday",
+            "avg_sales": 17875.0
+          },
+          {
+            "month": "March",
+            "day": "Sunday",
+            "avg_sales": 57000.0
+          },
+          {
+            "month": "March",
+            "day": "Thursday",
+            "avg_sales": 20750.0
+          },
+          {
+            "month": "March",
+            "day": "Tuesday",
+            "avg_sales": 12416.67
+          },
+          {
+            "month": "March",
+            "day": "Wednesday",
+            "avg_sales": 10000.0
+          },
+          {
+            "month": "May",
+            "day": "Friday",
+            "avg_sales": 48666.67
+          },
+          {
+            "month": "May",
+            "day": "Monday",
+            "avg_sales": 57000.0
+          },
+          {
+            "month": "May",
+            "day": "Saturday",
+            "avg_sales": 14500.0
+          },
+          {
+            "month": "May",
+            "day": "Sunday",
+            "avg_sales": 7666.67
+          },
+          {
+            "month": "May",
+            "day": "Thursday",
+            "avg_sales": 15500.0
+          },
+          {
+            "month": "May",
+            "day": "Tuesday",
+            "avg_sales": 27944.44
+          },
+          {
+            "month": "May",
+            "day": "Wednesday",
+            "avg_sales": 60000.0
+          },
+          {
+            "month": "November",
+            "day": "Friday",
+            "avg_sales": 27000.0
+          },
+          {
+            "month": "November",
+            "day": "Monday",
+            "avg_sales": 9000.0
+          },
+          {
+            "month": "November",
+            "day": "Saturday",
+            "avg_sales": 35250.0
+          },
+          {
+            "month": "November",
+            "day": "Sunday",
+            "avg_sales": 18285.71
+          },
+          {
+            "month": "November",
+            "day": "Thursday",
+            "avg_sales": 12000.0
+          },
+          {
+            "month": "November",
+            "day": "Tuesday",
+            "avg_sales": 3000.0
+          },
+          {
+            "month": "November",
+            "day": "Wednesday",
+            "avg_sales": 44833.33
+          },
+          {
+            "month": "October",
+            "day": "Friday",
+            "avg_sales": 19375.0
+          },
+          {
+            "month": "October",
+            "day": "Monday",
+            "avg_sales": 20375.0
+          },
+          {
+            "month": "October",
+            "day": "Saturday",
+            "avg_sales": 34857.14
+          },
+          {
+            "month": "October",
+            "day": "Sunday",
+            "avg_sales": 38666.67
+          },
+          {
+            "month": "October",
+            "day": "Thursday",
+            "avg_sales": 32625.0
+          },
+          {
+            "month": "October",
+            "day": "Tuesday",
+            "avg_sales": 28500.0
+          },
+          {
+            "month": "October",
+            "day": "Wednesday",
+            "avg_sales": 38000.0
+          },
+          {
+            "month": "September",
+            "day": "Friday",
+            "avg_sales": 53500.0
+          },
+          {
+            "month": "September",
+            "day": "Monday",
+            "avg_sales": 50750.0
+          },
+          {
+            "month": "September",
+            "day": "Saturday",
+            "avg_sales": 26700.0
+          },
+          {
+            "month": "September",
+            "day": "Sunday",
+            "avg_sales": 58666.67
+          },
+          {
+            "month": "September",
+            "day": "Thursday",
+            "avg_sales": 24000.0
+          },
+          {
+            "month": "September",
+            "day": "Tuesday",
+            "avg_sales": 31500.0
+          },
+          {
+            "month": "September",
+            "day": "Wednesday",
+            "avg_sales": 40000.0
+          }
+        ]
+      }
+    },
+    "forecast_meta": {
+      "months_of_data": 12,
+      "min_months_required": 3,
+      "sufficient_data": true,
+      "confidence_note": "Good forecast confidence."
+    }
+  },
+  "anomalies": {
+    "summary": {
+      "sales_anomalies": 14,
+      "margin_anomalies": 0,
+      "quantity_anomalies": 0,
+      "total_anomalies": 14
+    },
+    "sales_anomalies": [
+      {
+        "date": "2025-01-19",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      },
+      {
+        "date": "2025-02-05",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-04-23",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      },
+      {
+        "date": "2025-04-24",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      },
+      {
+        "date": "2025-05-26",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-05-30",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-07-01",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      },
+      {
+        "date": "2025-07-11",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      },
+      {
+        "date": "2025-07-28",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-09-19",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-09-21",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      },
+      {
+        "date": "2025-10-04",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-11-01",
+        "product": "Rice 10kg",
+        "total_sales": 100000.0,
+        "sales_z": 3.1656
+      },
+      {
+        "date": "2025-11-05",
+        "product": "Rice 10kg",
+        "total_sales": 80000.0,
+        "sales_z": 2.3191
+      }
+    ],
+    "margin_anomalies": [],
+    "quantity_anomalies": []
+  },
+  "metadata": {
+    "date_range": {
+      "start": "2025-01-02",
+      "end": "2025-12-31"
+    },
+    "record_count": 300,
+    "has_stock": true,
+    "has_expenses": true,
+    "has_customers": true,
+    "record_counts": {
+      "sales": 300,
+      "stock_movement": 6,
+      "expenses": 60,
+      "customer_list": 49
+    }
+  }
+}

@@ -1,0 +1,16 @@
+export { PlusIcon as HeroPlusIcon } from "@heroicons/react/24/outline";
+export { EyeIcon as HeroEyeIcon } from "@heroicons/react/24/outline";
+export { CheckIcon as HeroCheckIcon } from "@heroicons/react/24/outline";
+export { MagnifyingGlassIcon as HeroMagnifyingGlassIcon } from "@heroicons/react/24/outline";
+export { XMarkIcon as HeroXMarkIcon } from "@heroicons/react/24/outline";
+export { ClipboardIcon as HeroCopyIcon } from "@heroicons/react/24/outline";
+export { HomeIcon as HeroHomeIcon } from "@heroicons/react/24/outline";
+export { LifebuoyIcon as HeroLifebuoyIcon } from "@heroicons/react/24/outline";
+export { EnvelopeIcon as HeroMailIcon } from "@heroicons/react/24/outline";
+export { ChevronDownIcon as HeroChevronDownIcon } from "@heroicons/react/24/outline";
+export { ArrowDownIcon as HeroArrowDownIcon } from "@heroicons/react/24/outline";
+export { ArrowLongDownIcon as HeroArrowDownLongIcon } from "@heroicons/react/24/outline";
+export { ChartBarIcon as HeroChartBarIcon } from "@heroicons/react/24/outline";
+export { DocumentCheckIcon as HeroDocumentCheckIcon } from "@heroicons/react/24/outline";
+export { HandRaisedIcon as HeroHandRaisedIcon } from "@heroicons/react/24/outline";
+export { KeyIcon as HeroKeyIcon } from "@heroicons/react/24/outline";

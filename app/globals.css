@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+/* ── OAuth loading screen — logo breathe animation ───────────────────────────
+   Scale gently from 0.88 → 1.12 and back, with a matching opacity shift.
+   Feels like the logo is "breathing" while auth resolves in the background. */
+@keyframes logo-breathe {
+  0%, 100% { transform: scale(0.88); opacity: 0.75; }
+  50%       { transform: scale(1.12); opacity: 1;    }
+}
+.logo-breathe {
+  animation: logo-breathe 1.6s ease-in-out infinite;
+}
+
+/* ── Chart glow — used when a signal card deep-links to a chart ──────────────
+   The element gets .chart-glow added via JS; the animation runs once then stops.
+   A short delay lets the page finish rendering before the pulse starts. */
+@keyframes chart-glow-pulse {
+  0%   { box-shadow: 0 0 0 0 rgba(0, 27, 183, 0); border-color: transparent; }
+  15%  { box-shadow: 0 0 0 4px rgba(0, 27, 183, 0.25), 0 0 28px rgba(0, 27, 183, 0.18); border-color: rgba(0, 27, 183, 0.55); }
+  45%  { box-shadow: 0 0 0 4px rgba(0, 27, 183, 0.22), 0 0 28px rgba(0, 27, 183, 0.15); border-color: rgba(0, 27, 183, 0.50); }
+  80%  { box-shadow: 0 0 0 2px rgba(0, 27, 183, 0.10), 0 0 10px rgba(0, 27, 183, 0.06); border-color: rgba(0, 27, 183, 0.20); }
+  100% { box-shadow: 0 0 0 0 rgba(0, 27, 183, 0); border-color: transparent; }
+}
+
+.chart-glow {
+  animation: chart-glow-pulse 3.5s ease-in-out 1 forwards;
+  animation-delay: 0.3s;
+}
+
+/* Chart line primary — #001BB7 in light, #60a5fa (blue-400) in dark.
+   Used as stroke/fill in Recharts via "var(--chart-primary)" since Tailwind
+   dark: classes can't be applied to SVG presentation attributes. */
+:root        { --chart-primary: #001BB7; }
+html.dark    { --chart-primary: #60a5fa; }
+
+/* Class-based dark mode — .dark on <html> activates dark: variants */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* ── Chart focus modal — entrance animations ─────────────────────────────── */
+@keyframes focus-backdrop-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes focus-card-in {
+  from { opacity: 0; transform: scale(0.93) translateY(8px); }
+  to   { opacity: 1; transform: scale(1)    translateY(0);   }
+}
+.chart-focus-backdrop {
+  animation: focus-backdrop-in 0.18s ease-out forwards;
+}
+.chart-focus-card {
+  animation: focus-card-in 0.22s ease-out forwards;
+}
+
+/* Force Recharts to fill the focus modal's container height.
+   ResponsiveContainer sets height via inline style; !important overrides it.
+   Mobile uses 260px so the card fits on small screens; desktop gets 500px. */
+.chart-focus-modal .recharts-responsive-container {
+  height: 260px !important;
+  min-height: 260px !important;
+}
+.chart-focus-modal .recharts-wrapper {
+  height: 260px !important;
+}
+@media (min-width: 768px) {
+  .chart-focus-modal .recharts-responsive-container {
+    height: 500px !important;
+    min-height: 500px !important;
+  }
+  .chart-focus-modal .recharts-wrapper {
+    height: 500px !important;
+  }
+}
+
+/* Focus mode — all text elements bold and white for readability on dark backdrop */
+.chart-focus-modal .recharts-label,
+.chart-focus-modal .recharts-label-list text {
+  fill: rgba(255, 255, 255, 0.90) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+.chart-focus-modal .recharts-cartesian-axis-tick text,
+.chart-focus-modal .recharts-legend-item-text {
+  fill: rgba(255, 255, 255, 0.65) !important;
+  font-weight: 600 !important;
+}
+.chart-focus-modal .recharts-pie-label-text {
+  fill: rgba(255, 255, 255, 0.90) !important;
+  font-size: 12px !important;
+  font-weight: 700 !important;
+}
+
+/* Visible keyboard focus — never remove outline without a replacement */
+:focus-visible {
+  outline: 2px solid oklch(0.6041 0.2164 258.12);
+  outline-offset: 2px;
+}
+
+button:focus:not(:focus-visible),
+a:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Page enter transition for dashboard main content */
+@keyframes page-enter {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.page-enter {
+  animation: page-enter 0.22s ease-out;
+}
+
+/* Mobile-friendly horizontal table scroll */
+.table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100%;
+}
+
+.table-scroll table {
+  min-width: 560px;
+}
+
+.safe-area-pb {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+@theme {
+  --color-primary: oklch(0.3706 0.2318 264.2);       /* Zaffre #001BB7 */
+  --color-primary-dark: oklch(0.1413 0.0884 264.2);  /* Oxford Blue #00022D */
+  --color-ghost-white: oklch(0.9865 0.0066 286.28);  /* Ghost White #FAFAFF */
+  --color-secondary: oklch(0.6041 0.2164 258.12);    /* Azure #1F7AFF */
+  --color-secondary-green: oklch(0.8952 0.1426 177.21);
+  --color-aqua: oklch(0.9260 0.1378 174.0);          /* MagByte Aqua #57FFDB — dark mode accent */
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("../fonts/DMSans.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DMSans-Italic";
+  src: url("../fonts/DMSans-Italic.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSerif";
+  src: url("../fonts/DMSerif.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DMSerif-Italic";
+  src: url("../fonts/DMSerif-Italic.ttf") format("truetype");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}

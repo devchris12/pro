@@ -1,0 +1,3241 @@
+{
+  "page_1": {
+    "kpis": {
+      "gross_revenue": "\u20a626M",
+      "cogs": "\u20a622M",
+      "gross_profit": "\u20a64.4M",
+      "total_expenses": "\u20a67M",
+      "net_profit": "\u20a6-3.08M",
+      "profit_margin": "-12%",
+      "avg_basket": "\u20a637K",
+      "discount_impact": "\u20a6201K",
+      "order_count": 700
+    },
+    "charts": {
+      "revenue_trend": [
+        {
+          "month": "2025-01",
+          "month_short": "Jan",
+          "revenue": 2.185577
+        },
+        {
+          "month": "2025-02",
+          "month_short": "Feb",
+          "revenue": 2.156075
+        },
+        {
+          "month": "2025-03",
+          "month_short": "Mar",
+          "revenue": 1.955894
+        },
+        {
+          "month": "2025-04",
+          "month_short": "Apr",
+          "revenue": 2.459019
+        },
+        {
+          "month": "2025-05",
+          "month_short": "May",
+          "revenue": 1.706302
+        },
+        {
+          "month": "2025-06",
+          "month_short": "Jun",
+          "revenue": 2.248432
+        },
+        {
+          "month": "2025-07",
+          "month_short": "Jul",
+          "revenue": 2.414136
+        },
+        {
+          "month": "2025-08",
+          "month_short": "Aug",
+          "revenue": 2.33803
+        },
+        {
+          "month": "2025-09",
+          "month_short": "Sep",
+          "revenue": 1.97886
+        },
+        {
+          "month": "2025-10",
+          "month_short": "Oct",
+          "revenue": 2.775334
+        },
+        {
+          "month": "2025-11",
+          "month_short": "Nov",
+          "revenue": 2.119402
+        },
+        {
+          "month": "2025-12",
+          "month_short": "Dec",
+          "revenue": 1.649221
+        }
+      ],
+      "profit_trend": [
+        {
+          "month": "2025-01",
+          "month_short": "Jan",
+          "profit": 0.336897
+        },
+        {
+          "month": "2025-02",
+          "month_short": "Feb",
+          "profit": 0.340629
+        },
+        {
+          "month": "2025-03",
+          "month_short": "Mar",
+          "profit": 0.329495
+        },
+        {
+          "month": "2025-04",
+          "month_short": "Apr",
+          "profit": 0.339236
+        },
+        {
+          "month": "2025-05",
+          "month_short": "May",
+          "profit": 0.337977
+        },
+        {
+          "month": "2025-06",
+          "month_short": "Jun",
+          "profit": 0.316773
+        },
+        {
+          "month": "2025-07",
+          "month_short": "Jul",
+          "profit": 0.388847
+        },
+        {
+          "month": "2025-08",
+          "month_short": "Aug",
+          "profit": 0.367567
+        },
+        {
+          "month": "2025-09",
+          "month_short": "Sep",
+          "profit": 0.366734
+        },
+        {
+          "month": "2025-10",
+          "month_short": "Oct",
+          "profit": 0.43821
+        },
+        {
+          "month": "2025-11",
+          "month_short": "Nov",
+          "profit": 0.333735
+        },
+        {
+          "month": "2025-12",
+          "month_short": "Dec",
+          "profit": 0.257193
+        }
+      ],
+      "revenue_by_category": [
+        {
+          "category": "Grocery",
+          "revenue": 8.722702
+        },
+        {
+          "category": "Household",
+          "revenue": 7.043705
+        },
+        {
+          "category": "Beverage",
+          "revenue": 6.722506
+        },
+        {
+          "category": "Personal Care",
+          "revenue": 3.497369
+        }
+      ],
+      "payment_method_distribution": [
+        {
+          "method": "POS",
+          "revenue": 10.033423
+        },
+        {
+          "method": "Cash",
+          "revenue": 8.1358
+        },
+        {
+          "method": "Transfer",
+          "revenue": 7.817059
+        }
+      ],
+      "top_products": [
+        {
+          "product": "Product 12",
+          "revenue": 1.632025
+        },
+        {
+          "product": "Product 35",
+          "revenue": 1.34376
+        },
+        {
+          "product": "Product 24",
+          "revenue": 1.277595
+        },
+        {
+          "product": "Product 29",
+          "revenue": 1.029784
+        },
+        {
+          "product": "Product 9",
+          "revenue": 1.000696
+        },
+        {
+          "product": "Product 1",
+          "revenue": 0.97515
+        },
+        {
+          "product": "Product 8",
+          "revenue": 0.945393
+        },
+        {
+          "product": "Product 28",
+          "revenue": 0.904113
+        }
+      ],
+      "profit_waterfall": {
+        "gross_profit": 4.35,
+        "total_expenses": 7.43,
+        "net_profit": -3.08,
+        "steps": [
+          {
+            "label": "Gross Profit",
+            "value": 4.35,
+            "type": "start"
+          },
+          {
+            "label": "Fuel",
+            "value": -1.02,
+            "type": "decrease"
+          },
+          {
+            "label": "Internet",
+            "value": -1.25,
+            "type": "decrease"
+          },
+          {
+            "label": "Maintenance",
+            "value": -1.57,
+            "type": "decrease"
+          },
+          {
+            "label": "NEPA",
+            "value": -1.58,
+            "type": "decrease"
+          },
+          {
+            "label": "Rent",
+            "value": -0.72,
+            "type": "decrease"
+          },
+          {
+            "label": "Salary",
+            "value": -1.29,
+            "type": "decrease"
+          },
+          {
+            "label": "Net Profit",
+            "value": -3.08,
+            "type": "end"
+          }
+        ]
+      }
+    }
+  },
+  "page_2": {
+    "kpis": {
+      "total_products": 40,
+      "units_sold": "3K",
+      "product_revenue": "\u20a626M",
+      "product_profit": "\u20a64.2M",
+      "total_restocked": "5K",
+      "restock_cost": "\u20a643M",
+      "current_stock_level": "5,056",
+      "inventory_value": "\u20a642M",
+      "stock_turnover": "2035%",
+      "stock_out_count": "--",
+      "reorder_alerts": "--"
+    },
+    "charts": {
+      "inventory_level_trend": [
+        {
+          "date_str": "Jan 2025",
+          "total_stock": 367
+        },
+        {
+          "date_str": "Feb 2025",
+          "total_stock": 354
+        },
+        {
+          "date_str": "Mar 2025",
+          "total_stock": 344
+        },
+        {
+          "date_str": "Apr 2025",
+          "total_stock": 637
+        },
+        {
+          "date_str": "May 2025",
+          "total_stock": 321
+        },
+        {
+          "date_str": "Jun 2025",
+          "total_stock": 636
+        },
+        {
+          "date_str": "Jul 2025",
+          "total_stock": 413
+        },
+        {
+          "date_str": "Sep 2025",
+          "total_stock": 709
+        },
+        {
+          "date_str": "Oct 2025",
+          "total_stock": 750
+        },
+        {
+          "date_str": "Nov 2025",
+          "total_stock": 396
+        },
+        {
+          "date_str": "Dec 2025",
+          "total_stock": 129
+        }
+      ],
+      "top_products": [
+        {
+          "product": "Product 24",
+          "quantity": 99
+        },
+        {
+          "product": "Product 12",
+          "quantity": 97
+        },
+        {
+          "product": "Product 37",
+          "quantity": 96
+        },
+        {
+          "product": "Product 34",
+          "quantity": 88
+        },
+        {
+          "product": "Product 35",
+          "quantity": 88
+        },
+        {
+          "product": "Product 9",
+          "quantity": 86
+        }
+      ],
+      "supplier_ranking": [],
+      "stock_by_category": [
+        {
+          "category": "Grocery",
+          "stock_level": 1725
+        },
+        {
+          "category": "Household",
+          "stock_level": 1280
+        },
+        {
+          "category": "Beverage",
+          "stock_level": 1083
+        },
+        {
+          "category": "Personal Care",
+          "stock_level": 968
+        }
+      ],
+      "inventory_value_card": {
+        "value": "\u20a642M",
+        "total_products": 40
+      }
+    },
+    "product_health_table": [
+      {
+        "product": "Product 24",
+        "category": "Household",
+        "current_stock": 132,
+        "min_stock": 49,
+        "days_inventory": 408.0,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 37",
+        "category": "Beverage",
+        "current_stock": 129,
+        "min_stock": 50,
+        "days_inventory": 411.19,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 1",
+        "category": "Beverage",
+        "current_stock": 92,
+        "min_stock": 39,
+        "days_inventory": 426.55,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 3",
+        "category": "Household",
+        "current_stock": 102,
+        "min_stock": 46,
+        "days_inventory": 427.56,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 35",
+        "category": "Grocery",
+        "current_stock": 129,
+        "min_stock": 36,
+        "days_inventory": 448.57,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 11",
+        "category": "Beverage",
+        "current_stock": 124,
+        "min_stock": 52,
+        "days_inventory": 451.71,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 29",
+        "category": "Beverage",
+        "current_stock": 105,
+        "min_stock": 60,
+        "days_inventory": 452.54,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 9",
+        "category": "Beverage",
+        "current_stock": 131,
+        "min_stock": 74,
+        "days_inventory": 466.12,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 32",
+        "category": "Household",
+        "current_stock": 84,
+        "min_stock": 73,
+        "days_inventory": 484.98,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 2",
+        "category": "Grocery",
+        "current_stock": 92,
+        "min_stock": 49,
+        "days_inventory": 502.71,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 16",
+        "category": "Household",
+        "current_stock": 107,
+        "min_stock": 34,
+        "days_inventory": 503.72,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 38",
+        "category": "Grocery",
+        "current_stock": 89,
+        "min_stock": 60,
+        "days_inventory": 504.33,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 13",
+        "category": "Beverage",
+        "current_stock": 103,
+        "min_stock": 24,
+        "days_inventory": 516.69,
+        "reorder_alert": false
+      },
+      {
+        "product": "Product 5",
+        "category": "Grocery",
+        "current_stock": 111,
+        "min_stock": 37,
+        "days_inventory": 539.14,
+        "reorder_alert": false
+      }
+    ]
+  },
+  "page_3": {
+    "kpis": {
+      "unique_customers": 138,
+      "repeat_customers": 124,
+      "repeat_rate": "90%",
+      "avg_spend": "\u20a6188K",
+      "customer_lifetime_value": "\u20a64M",
+      "total_visits": 700,
+      "last_visit": "12/30/2025...",
+      "new_customers": 1,
+      "churned_customers": 41,
+      "avg_visits": 5,
+      "retention_rate": "70%"
+    },
+    "charts": {
+      "customer_ranking": [
+        {
+          "customer": "Customer 135",
+          "total_spent": "\u20a6623K"
+        },
+        {
+          "customer": "Customer 62",
+          "total_spent": "\u20a6587K"
+        },
+        {
+          "customer": "Customer 134",
+          "total_spent": "\u20a6538K"
+        },
+        {
+          "customer": "Customer 86",
+          "total_spent": "\u20a6509K"
+        },
+        {
+          "customer": "Customer 91",
+          "total_spent": "\u20a6439K"
+        },
+        {
+          "customer": "Customer 84",
+          "total_spent": "\u20a6422K"
+        },
+        {
+          "customer": "Customer 97",
+          "total_spent": "\u20a6416K"
+        },
+        {
+          "customer": "Customer 68",
+          "total_spent": "\u20a6401K"
+        },
+        {
+          "customer": "Customer 60",
+          "total_spent": "\u20a6394K"
+        },
+        {
+          "customer": "Customer 43",
+          "total_spent": "\u20a6393K"
+        },
+        {
+          "customer": "Customer 143",
+          "total_spent": "\u20a6377K"
+        },
+        {
+          "customer": "Customer 29",
+          "total_spent": "\u20a6373K"
+        },
+        {
+          "customer": "Customer 38",
+          "total_spent": "\u20a6362K"
+        }
+      ],
+      "monthly_active": [
+        {
+          "month": "2025-01",
+          "active_customers": 46,
+          "month_short": "Jan"
+        },
+        {
+          "month": "2025-02",
+          "active_customers": 44,
+          "month_short": "Feb"
+        },
+        {
+          "month": "2025-03",
+          "active_customers": 45,
+          "month_short": "Mar"
+        },
+        {
+          "month": "2025-04",
+          "active_customers": 46,
+          "month_short": "Apr"
+        },
+        {
+          "month": "2025-05",
+          "active_customers": 42,
+          "month_short": "May"
+        },
+        {
+          "month": "2025-06",
+          "active_customers": 41,
+          "month_short": "Jun"
+        },
+        {
+          "month": "2025-07",
+          "active_customers": 52,
+          "month_short": "Jul"
+        },
+        {
+          "month": "2025-08",
+          "active_customers": 56,
+          "month_short": "Aug"
+        },
+        {
+          "month": "2025-09",
+          "active_customers": 48,
+          "month_short": "Sep"
+        },
+        {
+          "month": "2025-10",
+          "active_customers": 61,
+          "month_short": "Oct"
+        },
+        {
+          "month": "2025-11",
+          "active_customers": 42,
+          "month_short": "Nov"
+        },
+        {
+          "month": "2025-12",
+          "active_customers": 41,
+          "month_short": "Dec"
+        }
+      ],
+      "repeat_vs_new": {
+        "new": 1,
+        "repeat": 124,
+        "new_pct": 0.72,
+        "repeat_pct": 89.86
+      },
+      "spending_distribution": [
+        {
+          "bucket": "10K-50K",
+          "count": 18
+        },
+        {
+          "bucket": "50K-100K",
+          "count": 23
+        },
+        {
+          "bucket": "100K-500K",
+          "count": 93
+        },
+        {
+          "bucket": "500K+",
+          "count": 4
+        }
+      ]
+    },
+    "clv_leaderboard": [
+      {
+        "customer": "Customer 135",
+        "phone": "08054398056",
+        "total_spent": "\u20a6113K",
+        "visits": 13,
+        "last_visit": "10/01/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 86",
+        "phone": "08016740197",
+        "total_spent": "\u20a687K",
+        "visits": 9,
+        "last_visit": "10/13/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 11",
+        "phone": "08060119651",
+        "total_spent": "\u20a671K",
+        "visits": 10,
+        "last_visit": "12/02/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 115",
+        "phone": "08063238057",
+        "total_spent": "\u20a670K",
+        "visits": 12,
+        "last_visit": "12/07/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 137",
+        "phone": "08035848226",
+        "total_spent": "\u20a669K",
+        "visits": 8,
+        "last_visit": "09/21/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 62",
+        "phone": "08063481198",
+        "total_spent": "\u20a669K",
+        "visits": 10,
+        "last_visit": "10/15/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 134",
+        "phone": "08073519947",
+        "total_spent": "\u20a668K",
+        "visits": 11,
+        "last_visit": "12/05/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 66",
+        "phone": "08068326160",
+        "total_spent": "\u20a668K",
+        "visits": 8,
+        "last_visit": "11/15/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 114",
+        "phone": "08013446499",
+        "total_spent": "\u20a666K",
+        "visits": 9,
+        "last_visit": "12/15/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 54",
+        "phone": "08043491314",
+        "total_spent": "\u20a662K",
+        "visits": 6,
+        "last_visit": "12/30/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 64",
+        "phone": "08081969657",
+        "total_spent": "\u20a660K",
+        "visits": 7,
+        "last_visit": "09/08/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 80",
+        "phone": "08051663795",
+        "total_spent": "\u20a658K",
+        "visits": 7,
+        "last_visit": "12/13/2025 12:00:00 AM"
+      },
+      {
+        "customer": "Customer 8",
+        "phone": "08032162965",
+        "total_spent": "\u20a658K",
+        "visits": 11,
+        "last_visit": "12/26/2025 12:00:00 AM"
+      }
+    ]
+  },
+  "page_4": {
+    "kpis": {
+      "total_staff": 30,
+      "total_orders": 700,
+      "avg_sale_per_staff": "\u20a6866K",
+      "achievement_percentage": "108%",
+      "staff_productivity_rank": "16"
+    },
+    "charts": {
+      "staff_sales": [
+        {
+          "staff_name": "Staff 10",
+          "revenue": "\u20a61,923,473"
+        },
+        {
+          "staff_name": "Staff 14",
+          "revenue": "\u20a61,778,709"
+        },
+        {
+          "staff_name": "Staff 21",
+          "revenue": "\u20a61,520,191"
+        },
+        {
+          "staff_name": "Staff 16",
+          "revenue": "\u20a61,517,379"
+        },
+        {
+          "staff_name": "Staff 2",
+          "revenue": "\u20a61,300,654"
+        },
+        {
+          "staff_name": "Staff 13",
+          "revenue": "\u20a61,290,030"
+        },
+        {
+          "staff_name": "Staff 3",
+          "revenue": "\u20a61,241,769"
+        },
+        {
+          "staff_name": "Staff 23",
+          "revenue": "\u20a61,185,236"
+        },
+        {
+          "staff_name": "Staff 15",
+          "revenue": "\u20a61,118,613"
+        },
+        {
+          "staff_name": "Staff 18",
+          "revenue": "\u20a61,071,603"
+        },
+        {
+          "staff_name": "Staff 9",
+          "revenue": "\u20a61,047,450"
+        },
+        {
+          "staff_name": "Staff 12",
+          "revenue": "\u20a61,041,691"
+        },
+        {
+          "staff_name": "Staff 28",
+          "revenue": "\u20a61,020,846"
+        },
+        {
+          "staff_name": "Staff 17",
+          "revenue": "\u20a6994,860"
+        },
+        {
+          "staff_name": "Staff 26",
+          "revenue": "\u20a6946,949"
+        },
+        {
+          "staff_name": "Staff 1",
+          "revenue": "\u20a6778,646"
+        },
+        {
+          "staff_name": "Staff 30",
+          "revenue": "\u20a6665,270"
+        },
+        {
+          "staff_name": "Staff 5",
+          "revenue": "\u20a6623,227"
+        },
+        {
+          "staff_name": "Staff 22",
+          "revenue": "\u20a6585,136"
+        },
+        {
+          "staff_name": "Staff 25",
+          "revenue": "\u20a6485,714"
+        },
+        {
+          "staff_name": "Staff 27",
+          "revenue": "\u20a6483,620"
+        },
+        {
+          "staff_name": "Staff 11",
+          "revenue": "\u20a6472,560"
+        },
+        {
+          "staff_name": "Staff 4",
+          "revenue": "\u20a6467,555"
+        },
+        {
+          "staff_name": "Staff 24",
+          "revenue": "\u20a6467,483"
+        },
+        {
+          "staff_name": "Staff 7",
+          "revenue": "\u20a6417,003"
+        }
+      ],
+      "orders_comparison": [
+        {
+          "staff_name": "Staff 10",
+          "orders": 48
+        },
+        {
+          "staff_name": "Staff 14",
+          "orders": 41
+        },
+        {
+          "staff_name": "Staff 21",
+          "orders": 40
+        },
+        {
+          "staff_name": "Staff 16",
+          "orders": 43
+        },
+        {
+          "staff_name": "Staff 2",
+          "orders": 31
+        },
+        {
+          "staff_name": "Staff 13",
+          "orders": 41
+        },
+        {
+          "staff_name": "Staff 3",
+          "orders": 28
+        },
+        {
+          "staff_name": "Staff 23",
+          "orders": 25
+        },
+        {
+          "staff_name": "Staff 15",
+          "orders": 29
+        },
+        {
+          "staff_name": "Staff 18",
+          "orders": 40
+        },
+        {
+          "staff_name": "Staff 9",
+          "orders": 28
+        },
+        {
+          "staff_name": "Staff 12",
+          "orders": 26
+        },
+        {
+          "staff_name": "Staff 28",
+          "orders": 35
+        }
+      ],
+      "branch_performance": [
+        {
+          "branch": "Ikeja Branch",
+          "revenue": 11007318
+        },
+        {
+          "branch": "Yaba Branch",
+          "revenue": 5365168
+        },
+        {
+          "branch": "Ajah Branch",
+          "revenue": 5105355
+        },
+        {
+          "branch": "Main Store",
+          "revenue": 4508441
+        }
+      ],
+      "staff_vs_target_gauge": {
+        "target": "\u20a624M",
+        "current": "\u20a626.0M",
+        "percentage": 108
+      }
+    },
+    "staff_leaderboard": [
+      {
+        "staff_name": "Staff 10",
+        "branch": "Ajah Branch",
+        "revenue": "\u20a61,923,473",
+        "profit": "\u20a6340,041",
+        "orders_handled": 48,
+        "avg_sale": "\u20a640,072",
+        "commission": "\u20a657,704",
+        "salary": "\u20a6167,052"
+      },
+      {
+        "staff_name": "Staff 14",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,778,709",
+        "profit": "\u20a6268,196",
+        "orders_handled": 41,
+        "avg_sale": "\u20a643,383",
+        "commission": "\u20a653,361",
+        "salary": "\u20a6129,116"
+      },
+      {
+        "staff_name": "Staff 21",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,520,191",
+        "profit": "\u20a6224,916",
+        "orders_handled": 40,
+        "avg_sale": "\u20a638,005",
+        "commission": "\u20a645,606",
+        "salary": "\u20a6180,589"
+      },
+      {
+        "staff_name": "Staff 16",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,517,379",
+        "profit": "\u20a6239,636",
+        "orders_handled": 43,
+        "avg_sale": "\u20a635,288",
+        "commission": "\u20a645,521",
+        "salary": "\u20a6169,823"
+      },
+      {
+        "staff_name": "Staff 2",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,300,654",
+        "profit": "\u20a6179,231",
+        "orders_handled": 31,
+        "avg_sale": "\u20a641,957",
+        "commission": "\u20a639,020",
+        "salary": "\u20a6138,289"
+      },
+      {
+        "staff_name": "Staff 13",
+        "branch": "Yaba Branch",
+        "revenue": "\u20a61,290,030",
+        "profit": "\u20a6217,836",
+        "orders_handled": 41,
+        "avg_sale": "\u20a631,464",
+        "commission": "\u20a638,701",
+        "salary": "\u20a6201,070"
+      },
+      {
+        "staff_name": "Staff 3",
+        "branch": "Main Store",
+        "revenue": "\u20a61,241,769",
+        "profit": "\u20a6196,037",
+        "orders_handled": 28,
+        "avg_sale": "\u20a644,349",
+        "commission": "\u20a637,253",
+        "salary": "\u20a6175,302"
+      },
+      {
+        "staff_name": "Staff 23",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,185,236",
+        "profit": "\u20a6168,323",
+        "orders_handled": 25,
+        "avg_sale": "\u20a647,409",
+        "commission": "\u20a635,557",
+        "salary": "\u20a6162,504"
+      },
+      {
+        "staff_name": "Staff 15",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,118,613",
+        "profit": "\u20a6144,896",
+        "orders_handled": 29,
+        "avg_sale": "\u20a638,573",
+        "commission": "\u20a633,558",
+        "salary": "\u20a6249,134"
+      },
+      {
+        "staff_name": "Staff 18",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,071,603",
+        "profit": "\u20a6187,525",
+        "orders_handled": 40,
+        "avg_sale": "\u20a626,790",
+        "commission": "\u20a632,148",
+        "salary": "\u20a6166,566"
+      },
+      {
+        "staff_name": "Staff 9",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a61,047,450",
+        "profit": "\u20a6172,517",
+        "orders_handled": 28,
+        "avg_sale": "\u20a637,409",
+        "commission": "\u20a631,424",
+        "salary": "\u20a6133,396"
+      },
+      {
+        "staff_name": "Staff 12",
+        "branch": "Main Store",
+        "revenue": "\u20a61,041,691",
+        "profit": "\u20a6140,938",
+        "orders_handled": 26,
+        "avg_sale": "\u20a640,065",
+        "commission": "\u20a631,251",
+        "salary": "\u20a6130,328"
+      },
+      {
+        "staff_name": "Staff 28",
+        "branch": "Yaba Branch",
+        "revenue": "\u20a61,020,846",
+        "profit": "\u20a6201,976",
+        "orders_handled": 35,
+        "avg_sale": "\u20a629,167",
+        "commission": "\u20a630,625",
+        "salary": "\u20a6152,325"
+      },
+      {
+        "staff_name": "Staff 17",
+        "branch": "Ajah Branch",
+        "revenue": "\u20a6994,860",
+        "profit": "\u20a6172,185",
+        "orders_handled": 24,
+        "avg_sale": "\u20a641,452",
+        "commission": "\u20a629,846",
+        "salary": "\u20a6229,328"
+      },
+      {
+        "staff_name": "Staff 26",
+        "branch": "Yaba Branch",
+        "revenue": "\u20a6946,949",
+        "profit": "\u20a6135,356",
+        "orders_handled": 29,
+        "avg_sale": "\u20a632,653",
+        "commission": "\u20a628,408",
+        "salary": "\u20a6205,909"
+      },
+      {
+        "staff_name": "Staff 1",
+        "branch": "Main Store",
+        "revenue": "\u20a6778,646",
+        "profit": "\u20a6116,818",
+        "orders_handled": 21,
+        "avg_sale": "\u20a637,078",
+        "commission": "\u20a623,359",
+        "salary": "\u20a6217,196"
+      },
+      {
+        "staff_name": "Staff 30",
+        "branch": "Ajah Branch",
+        "revenue": "\u20a6665,270",
+        "profit": "\u20a6103,276",
+        "orders_handled": 21,
+        "avg_sale": "\u20a631,680",
+        "commission": "\u20a619,958",
+        "salary": "\u20a6148,746"
+      },
+      {
+        "staff_name": "Staff 5",
+        "branch": "Main Store",
+        "revenue": "\u20a6623,227",
+        "profit": "\u20a697,930",
+        "orders_handled": 14,
+        "avg_sale": "\u20a644,516",
+        "commission": "\u20a618,697",
+        "salary": "\u20a6146,062"
+      },
+      {
+        "staff_name": "Staff 22",
+        "branch": "Yaba Branch",
+        "revenue": "\u20a6585,136",
+        "profit": "\u20a6102,902",
+        "orders_handled": 20,
+        "avg_sale": "\u20a629,257",
+        "commission": "\u20a617,554",
+        "salary": "\u20a6210,198"
+      },
+      {
+        "staff_name": "Staff 25",
+        "branch": "Ajah Branch",
+        "revenue": "\u20a6485,714",
+        "profit": "\u20a696,983",
+        "orders_handled": 16,
+        "avg_sale": "\u20a630,357",
+        "commission": "\u20a614,571",
+        "salary": "\u20a6128,675"
+      },
+      {
+        "staff_name": "Staff 27",
+        "branch": "Ajah Branch",
+        "revenue": "\u20a6483,620",
+        "profit": "\u20a677,471",
+        "orders_handled": 9,
+        "avg_sale": "\u20a653,736",
+        "commission": "\u20a614,509",
+        "salary": "\u20a6180,142"
+      },
+      {
+        "staff_name": "Staff 11",
+        "branch": "Yaba Branch",
+        "revenue": "\u20a6472,560",
+        "profit": "\u20a693,073",
+        "orders_handled": 11,
+        "avg_sale": "\u20a642,960",
+        "commission": "\u20a614,177",
+        "salary": "\u20a6215,647"
+      },
+      {
+        "staff_name": "Staff 4",
+        "branch": "Main Store",
+        "revenue": "\u20a6467,555",
+        "profit": "\u20a670,849",
+        "orders_handled": 11,
+        "avg_sale": "\u20a642,505",
+        "commission": "\u20a614,027",
+        "salary": "\u20a6148,657"
+      },
+      {
+        "staff_name": "Staff 24",
+        "branch": "Ikeja Branch",
+        "revenue": "\u20a6467,483",
+        "profit": "\u20a676,908",
+        "orders_handled": 13,
+        "avg_sale": "\u20a635,960",
+        "commission": "\u20a614,024",
+        "salary": "\u20a6225,518"
+      }
+    ]
+  },
+  "page_5": {
+    "kpis": {
+      "total_expenses": "\u20a67M",
+      "operating_profit": "\u20a6-3.08M",
+      "expense_share": "100%",
+      "expense_transactions": 48,
+      "largest_expense_category": "NEPA",
+      "monthly_avg_expense": "\u20a6619.33K",
+      "ytd_expenses": "\u20a67.43M"
+    },
+    "charts": {
+      "expense_trend": [
+        {
+          "month": "2025-01",
+          "month_short": "Jan",
+          "expenses": 0.44191
+        },
+        {
+          "month": "2025-02",
+          "month_short": "Feb",
+          "expenses": 0.960279
+        },
+        {
+          "month": "2025-03",
+          "month_short": "Mar",
+          "expenses": 0.943338
+        },
+        {
+          "month": "2025-04",
+          "month_short": "Apr",
+          "expenses": 0.6216
+        },
+        {
+          "month": "2025-05",
+          "month_short": "May",
+          "expenses": 0.658841
+        },
+        {
+          "month": "2025-06",
+          "month_short": "Jun",
+          "expenses": 0.518433
+        },
+        {
+          "month": "2025-07",
+          "month_short": "Jul",
+          "expenses": 0.49161
+        },
+        {
+          "month": "2025-08",
+          "month_short": "Aug",
+          "expenses": 0.615537
+        },
+        {
+          "month": "2025-09",
+          "month_short": "Sep",
+          "expenses": 0.393354
+        },
+        {
+          "month": "2025-10",
+          "month_short": "Oct",
+          "expenses": 0.625897
+        },
+        {
+          "month": "2025-11",
+          "month_short": "Nov",
+          "expenses": 0.525333
+        },
+        {
+          "month": "2025-12",
+          "month_short": "Dec",
+          "expenses": 0.635827
+        }
+      ],
+      "expense_vs_sales": [
+        {
+          "month": "2025-01",
+          "month_short": "Jan",
+          "expenses": 0.44191,
+          "sales": 2.185577
+        },
+        {
+          "month": "2025-02",
+          "month_short": "Feb",
+          "expenses": 0.960279,
+          "sales": 2.156075
+        },
+        {
+          "month": "2025-03",
+          "month_short": "Mar",
+          "expenses": 0.943338,
+          "sales": 1.955894
+        },
+        {
+          "month": "2025-04",
+          "month_short": "Apr",
+          "expenses": 0.6216,
+          "sales": 2.459019
+        },
+        {
+          "month": "2025-05",
+          "month_short": "May",
+          "expenses": 0.658841,
+          "sales": 1.706302
+        },
+        {
+          "month": "2025-06",
+          "month_short": "Jun",
+          "expenses": 0.518433,
+          "sales": 2.248432
+        },
+        {
+          "month": "2025-07",
+          "month_short": "Jul",
+          "expenses": 0.49161,
+          "sales": 2.414136
+        },
+        {
+          "month": "2025-08",
+          "month_short": "Aug",
+          "expenses": 0.615537,
+          "sales": 2.33803
+        },
+        {
+          "month": "2025-09",
+          "month_short": "Sep",
+          "expenses": 0.393354,
+          "sales": 1.97886
+        },
+        {
+          "month": "2025-10",
+          "month_short": "Oct",
+          "expenses": 0.625897,
+          "sales": 2.775334
+        },
+        {
+          "month": "2025-11",
+          "month_short": "Nov",
+          "expenses": 0.525333,
+          "sales": 2.119402
+        },
+        {
+          "month": "2025-12",
+          "month_short": "Dec",
+          "expenses": 0.635827,
+          "sales": 1.649221
+        }
+      ],
+      "expense_by_category": [
+        {
+          "category": "NEPA",
+          "amount": 1.575082
+        },
+        {
+          "category": "Maintenance",
+          "amount": 1.567475
+        },
+        {
+          "category": "Salary",
+          "amount": 1.289761
+        },
+        {
+          "category": "Internet",
+          "amount": 1.250522
+        },
+        {
+          "category": "Fuel",
+          "amount": 1.024988
+        },
+        {
+          "category": "Rent",
+          "amount": 0.724131
+        }
+      ],
+      "expense_by_branch": [
+        {
+          "branch": "Ajah Branch",
+          "total": 1.945602,
+          "percentage": 26.2
+        },
+        {
+          "branch": "Main Store",
+          "total": 1.944846,
+          "percentage": 26.2
+        },
+        {
+          "branch": "Yaba Branch",
+          "total": 1.780632,
+          "percentage": 24.0
+        },
+        {
+          "branch": "Ikeja Branch",
+          "total": 1.760879,
+          "percentage": 23.7
+        }
+      ],
+      "operating_profit_waterfall": {
+        "gross_profit": 4.35,
+        "total_expenses": 7.43,
+        "operating_profit": -3.08,
+        "steps": [
+          {
+            "label": "Gross Profit",
+            "value": 4.35,
+            "type": "start"
+          },
+          {
+            "label": "Fuel",
+            "value": -1.02,
+            "type": "decrease"
+          },
+          {
+            "label": "Internet",
+            "value": -1.25,
+            "type": "decrease"
+          },
+          {
+            "label": "Maintenance",
+            "value": -1.57,
+            "type": "decrease"
+          },
+          {
+            "label": "NEPA",
+            "value": -1.58,
+            "type": "decrease"
+          },
+          {
+            "label": "Rent",
+            "value": -0.72,
+            "type": "decrease"
+          },
+          {
+            "label": "Salary",
+            "value": -1.29,
+            "type": "decrease"
+          },
+          {
+            "label": "Operating Profit",
+            "value": -3.08,
+            "type": "end"
+          }
+        ]
+      }
+    },
+    "expense_detail_table": [
+      {
+        "date": "Wednesday, November 12, 2025",
+        "branch": "Main Store",
+        "expense_type": "Fuel",
+        "amount": "\u20a6194,237",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT35971",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Wednesday, August 20, 2025",
+        "branch": "Yaba Branch",
+        "expense_type": "Salary",
+        "amount": "\u20a6190,591",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT82756",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, November 04, 2025",
+        "branch": "Ikeja Branch",
+        "expense_type": "Salary",
+        "amount": "\u20a676,089",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT52712",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, June 10, 2025",
+        "branch": "Main Store",
+        "expense_type": "Internet",
+        "amount": "\u20a6197,596",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT80854",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, July 15, 2025",
+        "branch": "Ikeja Branch",
+        "expense_type": "Salary",
+        "amount": "\u20a635,867",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT18567",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, July 15, 2025",
+        "branch": "Main Store",
+        "expense_type": "Rent",
+        "amount": "\u20a688,196",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT13800",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, July 01, 2025",
+        "branch": "Ajah Branch",
+        "expense_type": "Internet",
+        "amount": "\u20a6287,609",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT62978",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, January 07, 2025",
+        "branch": "Ajah Branch",
+        "expense_type": "NEPA",
+        "amount": "\u20a620,096",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT29231",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, February 04, 2025",
+        "branch": "Main Store",
+        "expense_type": "Rent",
+        "amount": "\u20a6289,515",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT23418",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, December 23, 2025",
+        "branch": "Main Store",
+        "expense_type": "Maintenance",
+        "amount": "\u20a6299,699",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT20295",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, December 16, 2025",
+        "branch": "Yaba Branch",
+        "expense_type": "Maintenance",
+        "amount": "\u20a652,234",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT21866",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Tuesday, April 08, 2025",
+        "branch": "Ikeja Branch",
+        "expense_type": "NEPA",
+        "amount": "\u20a695,351",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT90863",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Thursday, September 04, 2025",
+        "branch": "Yaba Branch",
+        "expense_type": "Salary",
+        "amount": "\u20a6112,365",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT50374",
+        "approved_by": "Manager"
+      },
+      {
+        "date": "Thursday, October 23, 2025",
+        "branch": "Ajah Branch",
+        "expense_type": "Internet",
+        "amount": "\u20a6208,347",
+        "paid_to": "Service Provider",
+        "receipt_no": "RCPT24378",
+        "approved_by": "Manager"
+      }
+    ]
+  },
+  "page_6": {
+    "status": "success",
+    "kpis": {
+      "forecasted_sales": "\u20a62.1M",
+      "forecasted_profit": "\u20a6343.08K",
+      "sales_growth_rate": "-0%",
+      "forecast_confidence": "85%",
+      "days_until_stockout": 59,
+      "historical_profit_margin": "16.0%"
+    },
+    "charts": {
+      "forecast_line": [
+        {
+          "date": "2025-10-01",
+          "sales": 0.09549,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-02",
+          "sales": 0.080708,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-03",
+          "sales": 0.168185,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-04",
+          "sales": 0.034908,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-05",
+          "sales": 0.143517,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-08",
+          "sales": 0.156956,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-09",
+          "sales": 0.043512,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-10",
+          "sales": 0.011241,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-11",
+          "sales": 0.093188,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-12",
+          "sales": 0.090556,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-13",
+          "sales": 0.1206,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-14",
+          "sales": 0.113047,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-15",
+          "sales": 0.286321,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-16",
+          "sales": 0.116916,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-17",
+          "sales": 0.047678,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-18",
+          "sales": 0.020196,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-20",
+          "sales": 0.069762,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-21",
+          "sales": 0.165682,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-22",
+          "sales": 0.100058,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-23",
+          "sales": 0.279898,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-26",
+          "sales": 0.053914,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-27",
+          "sales": 0.097788,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-28",
+          "sales": 0.09275,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-29",
+          "sales": 0.144941,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-30",
+          "sales": 0.022656,
+          "type": "historical"
+        },
+        {
+          "date": "2025-10-31",
+          "sales": 0.124866,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-01",
+          "sales": 0.31474,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-02",
+          "sales": 0.182257,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-05",
+          "sales": 0.066936,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-06",
+          "sales": 0.088852,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-07",
+          "sales": 0.062764,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-08",
+          "sales": 0.11946,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-09",
+          "sales": 0.086928,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-10",
+          "sales": 0.033723,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-11",
+          "sales": 0.07131,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-12",
+          "sales": 0.085754,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-13",
+          "sales": 0.030264,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-14",
+          "sales": 0.014504,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-15",
+          "sales": 0.110282,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-16",
+          "sales": 0.145678,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-17",
+          "sales": 0.10095,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-18",
+          "sales": 0.088024,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-20",
+          "sales": 0.06264,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-21",
+          "sales": 0.009441,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-22",
+          "sales": 0.011328,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-24",
+          "sales": 0.184672,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-25",
+          "sales": 0.139632,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-28",
+          "sales": 0.046323,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-29",
+          "sales": 0.0063,
+          "type": "historical"
+        },
+        {
+          "date": "2025-11-30",
+          "sales": 0.05664,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-01",
+          "sales": 0.057672,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-02",
+          "sales": 0.145738,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-04",
+          "sales": 0.061936,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-05",
+          "sales": 0.04062,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-06",
+          "sales": 0.010174,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-07",
+          "sales": 0.0384,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-08",
+          "sales": 0.01179,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-12",
+          "sales": 0.029378,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-13",
+          "sales": 0.075533,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-14",
+          "sales": 0.103771,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-15",
+          "sales": 0.122995,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-17",
+          "sales": 0.09784,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-18",
+          "sales": 0.101847,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-19",
+          "sales": 0.124231,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-20",
+          "sales": 0.058005,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-21",
+          "sales": 0.161565,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-23",
+          "sales": 0.108495,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-25",
+          "sales": 0.00945,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-26",
+          "sales": 0.052822,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-27",
+          "sales": 0.083869,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-28",
+          "sales": 0.046544,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-29",
+          "sales": 0.01572,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-30",
+          "sales": 0.090826,
+          "type": "historical"
+        },
+        {
+          "date": "2025-12-31",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-01",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-02",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-03",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-04",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-05",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-06",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-07",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-08",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-09",
+          "sales": 0.06,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-10",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-11",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-12",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-13",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-14",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-15",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-16",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-17",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-18",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-19",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-20",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-21",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-22",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-23",
+          "sales": 0.05,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-24",
+          "sales": 0.04,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-25",
+          "sales": 0.04,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-26",
+          "sales": 0.04,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-27",
+          "sales": 0.04,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-28",
+          "sales": 0.04,
+          "type": "forecast"
+        },
+        {
+          "date": "2026-01-29",
+          "sales": 0.04,
+          "type": "forecast"
+        }
+      ],
+      "category_prediction": [
+        {
+          "category": "Beverage",
+          "current": 0.59,
+          "forecast": 0.5,
+          "growth": -15.0
+        },
+        {
+          "category": "Grocery",
+          "current": 0.81,
+          "forecast": 0.69,
+          "growth": -15.0
+        },
+        {
+          "category": "Personal Care",
+          "current": 0.25,
+          "forecast": 0.21,
+          "growth": -15.0
+        },
+        {
+          "category": "Household",
+          "current": 0.53,
+          "forecast": 0.45,
+          "growth": -15.0
+        }
+      ],
+      "product_demand_projection": [],
+      "projected_profit_trend": {
+        "historical": [
+          {
+            "date": "2025-10-31",
+            "profit": 0.007301,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-01",
+            "profit": 0.044818,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-02",
+            "profit": 0.026383,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-05",
+            "profit": 0.016899,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-06",
+            "profit": 0.013222,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-07",
+            "profit": 0.007836,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-08",
+            "profit": 0.01259,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-09",
+            "profit": 0.019192,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-10",
+            "profit": 0.007764,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-11",
+            "profit": 0.01056,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-12",
+            "profit": 0.012625,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-13",
+            "profit": 0.00802,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-14",
+            "profit": 0.0029,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-15",
+            "profit": 0.018665,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-16",
+            "profit": 0.019814,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-17",
+            "profit": 0.011518,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-18",
+            "profit": 0.010954,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-20",
+            "profit": 0.014742,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-21",
+            "profit": 0.00286,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-22",
+            "profit": 0.001411,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-24",
+            "profit": 0.029753,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-25",
+            "profit": 0.020716,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-28",
+            "profit": 0.008402,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-29",
+            "profit": 0.005036,
+            "type": "historical"
+          },
+          {
+            "date": "2025-11-30",
+            "profit": 0.007055,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-01",
+            "profit": 0.009183,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-02",
+            "profit": 0.01862,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-04",
+            "profit": 0.008743,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-05",
+            "profit": 0.005642,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-06",
+            "profit": -0.00058,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-07",
+            "profit": 0.00538,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-08",
+            "profit": 0.003372,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-12",
+            "profit": 0.020036,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-13",
+            "profit": 0.023802,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-14",
+            "profit": 0.007988,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-15",
+            "profit": 0.019509,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-17",
+            "profit": 0.011144,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-18",
+            "profit": 0.011252,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-19",
+            "profit": 0.020115,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-20",
+            "profit": 0.00553,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-21",
+            "profit": 0.025673,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-23",
+            "profit": 0.019935,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-25",
+            "profit": 0.007554,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-26",
+            "profit": 0.005896,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-27",
+            "profit": 0.003638,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-28",
+            "profit": 0.006572,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-29",
+            "profit": 0.003496,
+            "type": "historical"
+          },
+          {
+            "date": "2025-12-30",
+            "profit": 0.014693,
+            "type": "historical"
+          }
+        ],
+        "forecast": [
+          {
+            "date": "2025-12-31",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-01",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-02",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-03",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-04",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-05",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-06",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-07",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-08",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-09",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-10",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-11",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-12",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-13",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-14",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-15",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-16",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-17",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-18",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-19",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-20",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-21",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-22",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-23",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-24",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-25",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-26",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-27",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-28",
+            "profit": 0.01,
+            "type": "forecast"
+          },
+          {
+            "date": "2026-01-29",
+            "profit": 0.01,
+            "type": "forecast"
+          }
+        ],
+        "avg_margin": 16.0
+      },
+      "seasonality_pattern": {
+        "sales_by_day_of_week": [
+          {
+            "day": "Monday",
+            "avg_sales": 35979.955555555556,
+            "day_short": "Mon"
+          },
+          {
+            "day": "Tuesday",
+            "avg_sales": 42900.62365591398,
+            "day_short": "Tue"
+          },
+          {
+            "day": "Wednesday",
+            "avg_sales": 35924.2,
+            "day_short": "Wed"
+          },
+          {
+            "day": "Thursday",
+            "avg_sales": 35643.53846153846,
+            "day_short": "Thu"
+          },
+          {
+            "day": "Friday",
+            "avg_sales": 32896.796116504855,
+            "day_short": "Fri"
+          },
+          {
+            "day": "Saturday",
+            "avg_sales": 38066.28971962617,
+            "day_short": "Sat"
+          },
+          {
+            "day": "Sunday",
+            "avg_sales": 38677.2037037037,
+            "day_short": "Sun"
+          }
+        ],
+        "sales_by_month": [
+          {
+            "month": "January",
+            "avg_sales": 38343.45614035088,
+            "month_short": "Jan"
+          },
+          {
+            "month": "February",
+            "avg_sales": 43121.5,
+            "month_short": "Feb"
+          },
+          {
+            "month": "March",
+            "avg_sales": 34926.67857142857,
+            "month_short": "Mar"
+          },
+          {
+            "month": "April",
+            "avg_sales": 40983.65,
+            "month_short": "Apr"
+          },
+          {
+            "month": "May",
+            "avg_sales": 31023.672727272726,
+            "month_short": "May"
+          },
+          {
+            "month": "June",
+            "avg_sales": 41637.62962962963,
+            "month_short": "Jun"
+          },
+          {
+            "month": "July",
+            "avg_sales": 36577.818181818184,
+            "month_short": "Jul"
+          },
+          {
+            "month": "August",
+            "avg_sales": 33400.42857142857,
+            "month_short": "Aug"
+          },
+          {
+            "month": "September",
+            "avg_sales": 31917.09677419355,
+            "month_short": "Sep"
+          },
+          {
+            "month": "October",
+            "avg_sales": 39089.211267605635,
+            "month_short": "Oct"
+          },
+          {
+            "month": "November",
+            "avg_sales": 39988.71698113208,
+            "month_short": "Nov"
+          },
+          {
+            "month": "December",
+            "avg_sales": 35852.63043478261,
+            "month_short": "Dec"
+          }
+        ],
+        "weekday_vs_weekend": [
+          {
+            "type": "Weekday",
+            "avg_sales": 36.6
+          },
+          {
+            "type": "Weekend",
+            "avg_sales": 38.4
+          }
+        ]
+      }
+    },
+    "forecast_meta": {
+      "months_of_data": 12,
+      "min_months_required": 3,
+      "sufficient_data": true,
+      "confidence_note": "Good forecast confidence."
+    }
+  },
+  "anomalies": {
+    "summary": {
+      "sales_anomalies": 29,
+      "margin_anomalies": 56,
+      "quantity_anomalies": 0,
+      "total_anomalies": 85
+    },
+    "sales_anomalies": [
+      {
+        "date": "2025-01-05",
+        "product": "Product 35",
+        "branch": "Ikeja Branch",
+        "total_sales": 91620.0,
+        "sales_z": 2.2234
+      },
+      {
+        "date": "2025-01-06",
+        "product": "Product 33",
+        "branch": "Ikeja Branch",
+        "total_sales": 90726.0,
+        "sales_z": 2.187
+      },
+      {
+        "date": "2025-01-11",
+        "product": "Product 33",
+        "branch": "Ikeja Branch",
+        "total_sales": 90726.0,
+        "sales_z": 2.187
+      },
+      {
+        "date": "2025-02-08",
+        "product": "Product 29",
+        "branch": "Ajah Branch",
+        "total_sales": 87024.0,
+        "sales_z": 2.0359
+      },
+      {
+        "date": "2025-02-14",
+        "product": "Product 29",
+        "branch": "Ikeja Branch",
+        "total_sales": 87024.0,
+        "sales_z": 2.0359
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Product 32",
+        "branch": "Ikeja Branch",
+        "total_sales": 99342.0,
+        "sales_z": 2.5385
+      },
+      {
+        "date": "2025-03-12",
+        "product": "Product 1",
+        "branch": "Yaba Branch",
+        "total_sales": 88650.0,
+        "sales_z": 2.1023
+      },
+      {
+        "date": "2025-03-13",
+        "product": "Product 32",
+        "branch": "Main Store",
+        "total_sales": 99342.0,
+        "sales_z": 2.5385
+      },
+      {
+        "date": "2025-04-06",
+        "product": "Product 12",
+        "branch": "Ikeja Branch",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-04-06",
+        "product": "Product 32",
+        "branch": "Ajah Branch",
+        "total_sales": 99342.0,
+        "sales_z": 2.5385
+      },
+      {
+        "date": "2025-04-12",
+        "product": "Product 7",
+        "branch": "Ajah Branch",
+        "total_sales": 92904.0,
+        "sales_z": 2.2758
+      },
+      {
+        "date": "2025-04-26",
+        "product": "Product 29",
+        "branch": "Ajah Branch",
+        "total_sales": 87024.0,
+        "sales_z": 2.0359
+      },
+      {
+        "date": "2025-05-07",
+        "product": "Product 29",
+        "branch": "Ajah Branch",
+        "total_sales": 87024.0,
+        "sales_z": 2.0359
+      },
+      {
+        "date": "2025-05-28",
+        "product": "Product 29",
+        "branch": "Yaba Branch",
+        "total_sales": 87024.0,
+        "sales_z": 2.0359
+      },
+      {
+        "date": "2025-06-01",
+        "product": "Product 35",
+        "branch": "Main Store",
+        "total_sales": 91620.0,
+        "sales_z": 2.2234
+      },
+      {
+        "date": "2025-06-03",
+        "product": "Product 33",
+        "branch": "Ikeja Branch",
+        "total_sales": 90726.0,
+        "sales_z": 2.187
+      },
+      {
+        "date": "2025-06-10",
+        "product": "Product 12",
+        "branch": "Ikeja Branch",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-07-12",
+        "product": "Product 12",
+        "branch": "Ajah Branch",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-07-22",
+        "product": "Product 35",
+        "branch": "Yaba Branch",
+        "total_sales": 91620.0,
+        "sales_z": 2.2234
+      },
+      {
+        "date": "2025-08-11",
+        "product": "Product 33",
+        "branch": "Yaba Branch",
+        "total_sales": 90726.0,
+        "sales_z": 2.187
+      },
+      {
+        "date": "2025-08-30",
+        "product": "Product 35",
+        "branch": "Ajah Branch",
+        "total_sales": 91620.0,
+        "sales_z": 2.2234
+      },
+      {
+        "date": "2025-10-05",
+        "product": "Product 12",
+        "branch": "Main Store",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-10-13",
+        "product": "Product 12",
+        "branch": "Yaba Branch",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-10-16",
+        "product": "Product 35",
+        "branch": "Ikeja Branch",
+        "total_sales": 91620.0,
+        "sales_z": 2.2234
+      },
+      {
+        "date": "2025-11-01",
+        "product": "Product 35",
+        "branch": "Ikeja Branch",
+        "total_sales": 91620.0,
+        "sales_z": 2.2234
+      },
+      {
+        "date": "2025-11-02",
+        "product": "Product 32",
+        "branch": "Main Store",
+        "total_sales": 99342.0,
+        "sales_z": 2.5385
+      },
+      {
+        "date": "2025-11-16",
+        "product": "Product 12",
+        "branch": "Ikeja Branch",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-11-17",
+        "product": "Product 12",
+        "branch": "Ikeja Branch",
+        "total_sales": 100950.0,
+        "sales_z": 2.6041
+      },
+      {
+        "date": "2025-12-14",
+        "product": "Product 1",
+        "branch": "Main Store",
+        "total_sales": 88650.0,
+        "sales_z": 2.1023
+      }
+    ],
+    "margin_anomalies": [
+      {
+        "date": "2025-01-12",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-01-15",
+        "product": "Product 37",
+        "branch": "Ikeja Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-01-17",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-01-24",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-01-25",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-01-30",
+        "product": "Product 37",
+        "branch": "Main Store",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-02-16",
+        "product": "Product 17",
+        "branch": "Ikeja Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-02-18",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-02-20",
+        "product": "Product 37",
+        "branch": "Main Store",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-02-25",
+        "product": "Product 17",
+        "branch": "Ajah Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-03-07",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-03-08",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-03-12",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-03-18",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-03-27",
+        "product": "Product 37",
+        "branch": "Ikeja Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-04-08",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-04-10",
+        "product": "Product 17",
+        "branch": "Yaba Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-04-20",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-04-21",
+        "product": "Product 17",
+        "branch": "Main Store",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-05-05",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-05-16",
+        "product": "Product 37",
+        "branch": "Main Store",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-05-16",
+        "product": "Product 27",
+        "branch": "Yaba Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-05-18",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-05-21",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-05-29",
+        "product": "Product 27",
+        "branch": "Ajah Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-06-01",
+        "product": "Product 27",
+        "branch": "Yaba Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-06-19",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-06-28",
+        "product": "Product 17",
+        "branch": "Yaba Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-07-03",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-07-04",
+        "product": "Product 17",
+        "branch": "Ikeja Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-07-07",
+        "product": "Product 27",
+        "branch": "Yaba Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-07-09",
+        "product": "Product 17",
+        "branch": "Yaba Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-07-15",
+        "product": "Product 17",
+        "branch": "Ikeja Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-07-19",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-07-30",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-08-11",
+        "product": "Product 37",
+        "branch": "Ikeja Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-08-15",
+        "product": "Product 27",
+        "branch": "Ajah Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-09-01",
+        "product": "Product 37",
+        "branch": "Ikeja Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-09-01",
+        "product": "Product 17",
+        "branch": "Yaba Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-09-04",
+        "product": "Product 17",
+        "branch": "Yaba Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-09-06",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-09-11",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-09-14",
+        "product": "Product 27",
+        "branch": "Ajah Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-10-02",
+        "product": "Product 17",
+        "branch": "Ikeja Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-10-03",
+        "product": "Product 17",
+        "branch": "Yaba Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-10-05",
+        "product": "Product 17",
+        "branch": "Ajah Branch",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-10-15",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-11-01",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-11-09",
+        "product": "Product 17",
+        "branch": "Main Store",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-11-18",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-11-29",
+        "product": "Product 27",
+        "branch": "Ikeja Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-12-12",
+        "product": "Product 37",
+        "branch": "Yaba Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-12-12",
+        "product": "Product 27",
+        "branch": "Ajah Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      },
+      {
+        "date": "2025-12-13",
+        "product": "Product 37",
+        "branch": "Ajah Branch",
+        "margin": 0.5658,
+        "margin_z": 2.3153
+      },
+      {
+        "date": "2025-12-19",
+        "product": "Product 17",
+        "branch": "Main Store",
+        "margin": 0.5696,
+        "margin_z": 2.34
+      },
+      {
+        "date": "2025-12-25",
+        "product": "Product 27",
+        "branch": "Ajah Branch",
+        "margin": 0.7994,
+        "margin_z": 3.821
+      }
+    ],
+    "quantity_anomalies": []
+  },
+  "metadata": {
+    "date_range": {
+      "start": "2025-01-01",
+      "end": "2025-12-30"
+    },
+    "record_count": 700,
+    "has_master_stock": true,
+    "has_stock_movement": true,
+    "has_expenses": true,
+    "has_staff": true,
+    "has_customers": true,
+    "has_debt": true,
+    "branches": [
+      "Ikeja Branch",
+      "Ajah Branch",
+      "Yaba Branch",
+      "Main Store"
+    ],
+    "record_counts": {
+      "sales": 700,
+      "master_stock": 40,
+      "stock_movement": 40,
+      "expenses": 48,
+      "staff_records": 30,
+      "customer_database": 150,
+      "debt_management": 30
+    }
+  }
+}

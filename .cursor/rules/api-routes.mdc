@@ -1,0 +1,12 @@
+---
+globs: ["**/app/api/**", "**/lib/api*", "**/lib/hooks*"]
+---
+
+# MagByte API rules
+
+- External REST API base: https://mag-byte-api.vercel.app/api
+- All API calls use Axios instance from /lib/api/ (never raw fetch in components)
+- Always handle loading, error, and empty states in queries
+- Use TanStack Query queryKeys as arrays: ['resource', id, filters]
+- Never put business logic in API route handlers — keep them thin
+- Auth token comes from Zustand store — never from localStorage directly in a component

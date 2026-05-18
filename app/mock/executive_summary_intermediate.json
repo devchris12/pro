@@ -1,0 +1,515 @@
+{
+  "period_filter": "all",
+  "data_quality": {
+    "has_issues": true,
+    "issue_count": 2,
+    "issues": [
+      {
+        "message": "4 of 6 products in your Stock Movement sheet are below reorder level (66.7% of your range). Check the Current Stock Balance column for: these items.",
+        "table": "Stock Movement",
+        "column": "Current Stock Balance",
+        "row_refs": [],
+        "severity": "error"
+      },
+      {
+        "message": "Expense-to-sales ratio is 113.2% \u2014 your expenses are consuming most of your revenue (operating margin: -101.8%). Review the Amount column in your Expenses sheet. Largest categories: check Expenses tab.",
+        "table": "Expenses",
+        "column": "Amount",
+        "row_refs": [],
+        "severity": "error"
+      }
+    ],
+    "pct_clean": 100.0
+  },
+  "health_score": {
+    "score": 41,
+    "delta_pts": 6.0,
+    "delta_label": "++6 pts vs previous 30d",
+    "label": "At Risk",
+    "colour": "red",
+    "based_on": "Rolling last 30 days (revenue); full-period (margins, customers, stock)",
+    "components": [
+      {
+        "name": "Revenue Growth",
+        "weight": "20%",
+        "raw": 79.9,
+        "pts": 16.0,
+        "max_pts": 20.0,
+        "detail": "+12.0% revenue growth last 30d  (\u20a6589.5K vs \u20a6526.5K)",
+        "colour": "green"
+      },
+      {
+        "name": "Net Profit Margin",
+        "weight": "20%",
+        "raw": 0.0,
+        "pts": 0.0,
+        "max_pts": 20.0,
+        "detail": "-101.8% operating profit margin",
+        "colour": "red"
+      },
+      {
+        "name": "Expense Control",
+        "weight": "15%",
+        "raw": 0.0,
+        "pts": 0.0,
+        "max_pts": 15.0,
+        "detail": "Expenses are 113.2% of revenue  |  Operating margin: -101.8%",
+        "colour": "red"
+      },
+      {
+        "name": "Customer Retention",
+        "weight": "15%",
+        "raw": 75.0,
+        "pts": 11.3,
+        "max_pts": 15.0,
+        "detail": "46.7% retention rate  |  89.8% repeat purchase rate  |  0 churned",
+        "colour": "green"
+      },
+      {
+        "name": "Stock Health",
+        "weight": "15%",
+        "raw": 40.0,
+        "pts": 6.0,
+        "max_pts": 15.0,
+        "detail": "4/6 products below reorder  |  Turnover rate: 2885.1%",
+        "colour": "amber"
+      },
+      {
+        "name": "Forecast Accuracy",
+        "weight": "15%",
+        "raw": 50.0,
+        "pts": 7.5,
+        "max_pts": 15.0,
+        "detail": "No prior forecast to evaluate (first run - neutral score)",
+        "colour": "amber"
+      }
+    ],
+    "data_completeness": {
+      "pct_clean": 100.0,
+      "has_issues": true,
+      "issue_count": 2,
+      "badge": "Score based on 100.0% of your data"
+    }
+  },
+  "comparison": {
+    "period_label": "Full period",
+    "current_label": "Full dataset",
+    "prev_label": null,
+    "revenue_current": 7561500.0,
+    "revenue_prev": null,
+    "revenue_delta_pct": null,
+    "orders_current": 300,
+    "orders_prev": null,
+    "orders_delta_pct": null,
+    "has_comparison": false
+  },
+  "vital_signs": {
+    "revenue": {
+      "label": "Total Revenue",
+      "value": "\u20a67.56M",
+      "sub": "Full period \u00b7 11.4% gross margin",
+      "delta": "11.4% gross margin \u00b7 full period",
+      "sentiment": "amber"
+    },
+    "top_product": {
+      "label": "Top Product",
+      "value": "Rice 10kg",
+      "sub": "Grocery \u00b7 \u20a62.72M revenue",
+      "delta": "36.0% of total revenue",
+      "sentiment": "green"
+    },
+    "biggest_risk": {
+      "label": "Biggest Risk",
+      "value": "Expenses at 113.2% of revenue",
+      "sub": "Expenses exceed healthy threshold",
+      "delta": "Operating margin: -101.8%",
+      "sentiment": "red"
+    },
+    "orders": {
+      "label": "Orders",
+      "value": "300",
+      "sub": "Total orders \u00b7 full period",
+      "delta": "Avg order value: \u20a625.2K",
+      "sentiment": "green"
+    },
+    "customers": {
+      "label": "Customers",
+      "value": "49",
+      "sub": "89.8% repeat purchase rate",
+      "delta": "46.7% retention \u00b7 0 churned",
+      "sentiment": "amber"
+    },
+    "expense_ratio": {
+      "label": "Expense Ratio",
+      "value": "\u20a68.56M",
+      "sub": "Expenses = 113.2% of revenue",
+      "delta": "Operating margin: -101.8%",
+      "sentiment": "red"
+    },
+    "overall_trend": {
+      "label": "Overall Trend",
+      "value": "\u2197 Growing",
+      "sub": "Rolling last 30 days",
+      "delta": "+12.0% vs prior 30d",
+      "sentiment": "green",
+      "trend_pct": 12.0
+    }
+  },
+  "forecast_insight": {
+    "current_month": {
+      "month": "Dec 2025",
+      "forecast_value": 664506.4700000002,
+      "forecast_fmt": "\u20a6664.5K",
+      "actual_to_date": 589500.0,
+      "actual_fmt": "\u20a6589.5K",
+      "pct_to_target": 88.7,
+      "still_needed": 75006.4700000002,
+      "still_needed_fmt": "\u20a675.0K",
+      "days_elapsed": 1,
+      "days_remaining": 30,
+      "total_days": 31,
+      "daily_run_rate": 589500.0,
+      "daily_needed": 2500.22,
+      "projected_total": 18274500.0,
+      "on_track": true,
+      "status_label": "On track",
+      "status_colour": "green",
+      "narrative": "MagByte forecast \u20a6664.5K for Dec 2025. You're at \u20a6589.5K (88.7% of target) with 30 days remaining. At your current daily pace, you're on track.",
+      "reliable": true
+    },
+    "next_forecast": {
+      "month": "Jan 2026",
+      "forecast_value": 664506.4700000002,
+      "forecast_fmt": "\u20a6664.5K",
+      "vs_last_actual": "\u20a675.0K",
+      "direction": "up",
+      "growth_pct": "+2.5%",
+      "reliable": true,
+      "narrative": "MagByte forecasts \u20a6664.5K in revenue for Jan 2026 - up \u20a675.0K from your most recent completed month."
+    },
+    "accuracy": {
+      "status": "no_log",
+      "forecast_month": null,
+      "forecast_value": null,
+      "actual_value": null,
+      "error_pct": null,
+      "accuracy_pct": null,
+      "accuracy_label": "No prior forecast",
+      "score_pct": 0.5,
+      "narrative": "No previous forecast to compare yet. MagByte will start tracking from this run."
+    },
+    "see_more_page": "Forecast Insights"
+  },
+  "signals": [
+    {
+      "type": "alert",
+      "headline": "4 products are running low on stock",
+      "body": "Several products has fallen below the reorder level. Running out means losing sales you cannot get back.",
+      "linked_page": "Product & Stock Performance"
+    },
+    {
+      "type": "alert",
+      "headline": "Expenses are consuming 113.2% of your revenue",
+      "body": "Your total expenses represent 113.2% of sales, leaving an operating margin of -101.8%. Review your largest expense categories and identify what can be reduced.",
+      "linked_page": "Expenses Summary"
+    },
+    {
+      "type": "positive",
+      "headline": "3 products generate 83.3% of your revenue",
+      "body": "Rice 10kg, Palm Oil 5L, Indomie Carton drive most of your revenue. Always keep these in stock and monitor carefully.",
+      "linked_page": "Product & Stock Performance"
+    }
+  ],
+  "charts": [
+    {
+      "chart_type": "pareto_bar",
+      "dynamic_title": "3 products drive 83.3% of your total revenue",
+      "subtitle": "Revenue contribution by product",
+      "data": [
+        {
+          "name": "Rice 10kg",
+          "revenue": 2720000.0,
+          "profit": 272000.0,
+          "pct_of_total": 36.0
+        },
+        {
+          "name": "Palm Oil 5L",
+          "revenue": 1957500.0,
+          "profit": 217500.0,
+          "pct_of_total": 25.9
+        },
+        {
+          "name": "Indomie Carton",
+          "revenue": 1624500.0,
+          "profit": 171000.0,
+          "pct_of_total": 21.5
+        },
+        {
+          "name": "Detergent",
+          "revenue": 616000.0,
+          "profit": 88000.0,
+          "pct_of_total": 8.1
+        },
+        {
+          "name": "Soft Drink Crate",
+          "revenue": 459000.0,
+          "profit": 76500.0,
+          "pct_of_total": 6.1
+        },
+        {
+          "name": "Toothpaste",
+          "revenue": 184500.0,
+          "profit": 36900.0,
+          "pct_of_total": 2.4
+        }
+      ],
+      "linked_page": "Product & Stock Performance"
+    },
+    {
+      "chart_type": "category_donut",
+      "dynamic_title": "Grocery generates the most profit - 10.5% avg margin",
+      "subtitle": "Profit share by category",
+      "data": [
+        {
+          "category": "Grocery",
+          "profit": 660500.0,
+          "revenue": 6302000.0,
+          "pct_of_total": 76.6,
+          "avg_margin": 10.5
+        },
+        {
+          "category": "Household",
+          "profit": 88000.0,
+          "revenue": 616000.0,
+          "pct_of_total": 10.2,
+          "avg_margin": 14.3
+        },
+        {
+          "category": "Beverage",
+          "profit": 76500.0,
+          "revenue": 459000.0,
+          "pct_of_total": 8.9,
+          "avg_margin": 16.7
+        },
+        {
+          "category": "Personal Care",
+          "profit": 36900.0,
+          "revenue": 184500.0,
+          "pct_of_total": 4.3,
+          "avg_margin": 20.0
+        }
+      ],
+      "linked_page": "Product & Stock Performance"
+    },
+    {
+      "chart_type": "expense_vs_sales_combo",
+      "dynamic_title": "Expenses are 113.2% of revenue this period",
+      "subtitle": "Gross profit -> expenses -> operating profit",
+      "data": [
+        {
+          "month": "2025-01",
+          "expenses": 726363,
+          "sales": 437000,
+          "month_short": "Jan"
+        },
+        {
+          "month": "2025-02",
+          "expenses": 719015,
+          "sales": 372500,
+          "month_short": "Feb"
+        },
+        {
+          "month": "2025-03",
+          "expenses": 718837,
+          "sales": 645000,
+          "month_short": "Mar"
+        },
+        {
+          "month": "2025-04",
+          "expenses": 718870,
+          "sales": 634000,
+          "month_short": "Apr"
+        },
+        {
+          "month": "2025-05",
+          "expenses": 716749,
+          "sales": 728000,
+          "month_short": "May"
+        },
+        {
+          "month": "2025-06",
+          "expenses": 707071,
+          "sales": 607000,
+          "month_short": "Jun"
+        },
+        {
+          "month": "2025-07",
+          "expenses": 703203,
+          "sales": 860500,
+          "month_short": "Jul"
+        },
+        {
+          "month": "2025-08",
+          "expenses": 716199,
+          "sales": 589500,
+          "month_short": "Aug"
+        },
+        {
+          "month": "2025-09",
+          "expenses": 696222,
+          "sales": 827500,
+          "month_short": "Sep"
+        },
+        {
+          "month": "2025-10",
+          "expenses": 705951,
+          "sales": 744500,
+          "month_short": "Oct"
+        },
+        {
+          "month": "2025-11",
+          "expenses": 733316,
+          "sales": 526500,
+          "month_short": "Nov"
+        },
+        {
+          "month": "2025-12",
+          "expenses": 701383,
+          "sales": 589500,
+          "month_short": "Dec"
+        }
+      ],
+      "linked_page": "Expenses Summary"
+    },
+    {
+      "chart_type": "repeat_vs_new_donut",
+      "dynamic_title": "89.8% of customers are returning buyers",
+      "subtitle": "49 unique customers \u00b7 \u20a6861.9K total CLV",
+      "data": [
+        {
+          "segment": "Repeat Customers",
+          "count": 44,
+          "pct": 89.8
+        },
+        {
+          "segment": "New Customers",
+          "count": 5,
+          "pct": 10.2
+        }
+      ],
+      "retention_rate": 46.7,
+      "linked_page": "Customer Insights"
+    }
+  ],
+  "plays": [
+    {
+      "priority": "urgent",
+      "tag": "Urgent - Do This Now",
+      "text": "Your expenses (113.2% of revenue) are exceeding what you earn. Net profit is currently \u20a6-7,701,279. Overhead is your largest cost at \u20a60. Review and cut non-essential spending.",
+      "metric": "Linked to: Expense ratio 113.2% | Expenses sheet, Amount column"
+    },
+    {
+      "priority": "this_week",
+      "tag": "This Week",
+      "text": "Make sure Rice 10kg, Palm Oil 5L, Indomie Carton are always in stock. These 3 products account for 83.3% of your revenue - running short costs you directly.",
+      "metric": "Linked to: Top 3 product(s) - 83.3% of revenue | Product & Stock Performance"
+    },
+    {
+      "priority": "when_you_can",
+      "tag": "When You Can",
+      "text": "Focus your restocking budget on Personal Care products. Every sale there earns you 20.0% profit on average, vs 10.5% in Grocery. More Personal Care stock = more money per sale.",
+      "metric": "Linked to: Personal Care margin 20.0% vs Grocery 10.5% | Product & Stock Performance"
+    },
+    {
+      "priority": "when_you_can",
+      "tag": "When You Can",
+      "text": "Fix the 2 data issue(s) MagByte flagged (Start with the Stock Movement sheet, Current Stock Balance column). Clean data means more accurate insights across all 5 pages.",
+      "metric": "Linked to: 2 data quality issue(s)"
+    }
+  ],
+  "metadata": {
+    "period": {
+      "start": "2025-01-02",
+      "end": "2025-12-31"
+    },
+    "record_count": 300,
+    "generated_at": "2026-03-28T17:02:42.791691+00:00",
+    "tier": "intermediate",
+    "has_stock": true,
+    "has_expenses": true,
+    "has_customers": true,
+    "record_counts": {
+      "sales": 300,
+      "stock_movement": 6,
+      "expenses": 60,
+      "customer_list": 49
+    }
+  },
+  "ai_brief": {
+    "business_type": "Retail / Provision Store",
+    "tier": "Intermediate",
+    "period_filter": "all",
+    "period": {
+      "start": "2025-01-02",
+      "end": "2025-12-31"
+    },
+    "health_score": {
+      "score": 41,
+      "label": "At Risk",
+      "delta": "++6 pts vs previous 30d"
+    },
+    "data_quality": {
+      "has_issues": true,
+      "issue_count": 2,
+      "issues": [
+        "4 of 6 products in your Stock Movement sheet are below reorder level (66.7% of your range). Check the Current Stock Balance column for: these items.",
+        "Expense-to-sales ratio is 113.2% \u2014 your expenses are consuming most of your revenue (operating margin: -101.8%). Review the Amount column in your Expenses sheet. Largest categories: check Expenses tab."
+      ]
+    },
+    "comparison": {
+      "period_label": "Full period",
+      "revenue_delta": null,
+      "orders_delta": null
+    },
+    "forecast": {
+      "accuracy_label": "No prior forecast",
+      "narrative": "No previous forecast to compare yet. MagByte will start tracking from this run."
+    },
+    "key_metrics": {
+      "revenue": "\u20a67.56M",
+      "revenue_delta": "11.4% gross margin \u00b7 full period",
+      "top_product": "Rice 10kg",
+      "orders": "300",
+      "customers": "49",
+      "expense_ratio": "Expenses = 113.2% of revenue"
+    },
+    "top_signals": [
+      {
+        "type": "alert",
+        "headline": "4 products are running low on stock"
+      },
+      {
+        "type": "alert",
+        "headline": "Expenses are consuming 113.2% of your revenue"
+      },
+      {
+        "type": "positive",
+        "headline": "3 products generate 83.3% of your revenue"
+      }
+    ],
+    "top_plays": [
+      {
+        "priority": "urgent",
+        "action": "Your expenses (113.2% of revenue) are exceeding what you earn. Net profit is currently \u20a6-7,701,279. Overhead is your largest cost at \u20a60. Review and cut non-essential spending."
+      },
+      {
+        "priority": "this_week",
+        "action": "Make sure Rice 10kg, Palm Oil 5L, Indomie Carton are always in stock. These 3 products account for 83.3% of your revenue - running short costs you directly."
+      },
+      {
+        "priority": "when_you_can",
+        "action": "Focus your restocking budget on Personal Care products. Every sale there earns you 20.0% profit on average, vs 10.5% in Grocery. More Personal Care stock = more money per sale."
+      }
+    ]
+  }
+}

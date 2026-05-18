@@ -1,0 +1,18 @@
+---
+alwaysApply: true
+---
+
+# MagByte App v2 — always-on rules
+
+Stack: Next.js 16, React 19, TypeScript (strict), Tailwind CSS v4, pnpm.
+
+- Always use TypeScript. Never use `any`. Infer types from Zod schemas or define interfaces.
+- Use TanStack React Query v5 for ALL data fetching. No raw fetch/axios in components.
+- Use Zustand v5 for global state only. Local UI state uses useState or useReducer.
+- All Supabase access goes through /lib/supabase.ts. Never initialize client inline.
+- Tailwind CSS only. No inline styles, no CSS modules, no styled-components.
+- Never hardcode env values. Always use process.env.NEXT_PUBLIC_* for client-side vars.
+- Never push directly to main. Always use feature branches.
+- Never commit .env, .env.local, or CLAUDE.local.md.
+- App Router only. No pages/ directory usage. No getServerSideProps.
+- Components go in /app/components/. No mixing of server and client concerns in one file.

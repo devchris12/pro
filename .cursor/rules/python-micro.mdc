@@ -1,0 +1,12 @@
+---
+globs: ["**/*.py", "**/magbyte-micro/**", "**/scripts/**"]
+---
+
+# MagByte Python rules
+
+- All Python lives in magbyte-micro (FastAPI microservice) or /scripts/
+- Never add .py files inside the Next.js /app directory
+- Use type hints on all function signatures
+- Mock data scripts go in /scripts/mock/ and must be named mock_*.py
+- n8n workflow JSON lives in /scripts/n8n/ — do not modify without confirmation
+- FastAPI endpoints must have docstrings describing input/output shape
