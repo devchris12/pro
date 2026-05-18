@@ -251,6 +251,8 @@ function BasicDetailTable({ categoryFilters, paymentFilters, productFilters, ove
 // ── Basic tier content ─────────────────────────────────────────────────────────
 
 function BasicContent({ data, rawData }: { data: BasicAnalysisResult["page_1"]; rawData: BasicAnalysisResult["page_1"] }): React.ReactElement | null {
+  if (!data || !rawData) return null;
+
   const { kpis, charts } = data;
   const rawDetailTable = rawData.detail_table ?? [];
   const filteredData = useFilteredData();
@@ -1853,7 +1855,7 @@ export function SalesContent({ firstName }: SalesContentProps): React.ReactEleme
         )}
       </div>
 
-      {tierData.tier === "basic" && filteredData && basicRaw && (
+      {tierData.tier === "basic" && filteredData?.page_1 && basicRaw?.page_1 && (
         <BasicContent data={filteredData.page_1} rawData={basicRaw.page_1} />
       )}
       {tierData.tier === "intermediate" && <IntContent data={tierData.data} />}

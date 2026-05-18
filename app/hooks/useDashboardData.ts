@@ -81,7 +81,7 @@ export function useSalesPageData():
   const { data } = useGetAnalyzed();
 
   const basic = resolveBasicAnalysis(data?.analyzed_data, devTier);
-  if (basic) return { tier: "basic", data: basic.page_1 };
+  if (basic?.page_1) return { tier: "basic", data: basic.page_1 };
   if (!IS_DEV_DEMO) return null;
   if (devTier === "basic")        return { tier: "basic",        data: mockBasicAnalysis.page_1 };
   if (devTier === "intermediate") return { tier: "intermediate", data: mockIntermediateAnalysis.page_1 };
@@ -98,7 +98,7 @@ export function useProductsPageData():
   const { data } = useGetAnalyzed();
 
   const basic = resolveBasicAnalysis(data?.analyzed_data, devTier);
-  if (basic) return { tier: "basic", data: basic.page_2 };
+  if (basic?.page_2) return { tier: "basic", data: basic.page_2 };
   if (!IS_DEV_DEMO) return null;
   if (devTier === "basic")        return { tier: "basic",        data: mockBasicAnalysis.page_2 };
   if (devTier === "intermediate") return { tier: "intermediate", data: mockIntermediateAnalysis.page_2 };
@@ -128,7 +128,7 @@ export function useForecastPageData():
   const { data } = useGetAnalyzed();
 
   const basic = resolveBasicAnalysis(data?.analyzed_data, devTier);
-  if (basic) return { tier: "basic", data: basic.page_3 };
+  if (basic?.page_3) return { tier: "basic", data: basic.page_3 };
   if (!IS_DEV_DEMO) return null;
   if (devTier === "basic")        return { tier: "basic",        data: mockBasicAnalysis.page_3 };
   if (devTier === "intermediate") return { tier: "intermediate", data: mockIntermediateAnalysis.page_5 };

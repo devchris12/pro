@@ -669,7 +669,28 @@ export function CockpitContent({ firstName }: { firstName: string }): React.Reac
   }
 
   const greeting = getGreeting();
-  const { health_score, vital_signs, signals, charts, plays, data_quality, forecast_insight } = summary;
+  const health_score = summary.health_score;
+  const vital_signs = summary.vital_signs ?? {};
+  const signals = summary.signals ?? [];
+  const charts = summary.charts ?? [];
+  const plays = summary.plays ?? [];
+  const data_quality = summary.data_quality ?? {
+    pct_clean: 100,
+    issue_count: 0,
+    has_issues: false,
+    issues: [],
+  };
+  const forecast_insight = summary.forecast_insight;
+
+  if (!health_score) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh] text-center gap-4 max-w-sm mx-auto">
+        <p className="text-sm text-gray-500 dark:text-slate-400">
+          Your dashboard summary is still loading. Try refreshing in a moment.
+        </p>
+      </div>
+    );
+  }
 
   const dateStart = summary.metadata?.period?.start;
   const dateEnd   = summary.metadata?.period?.end;
