@@ -1,7 +1,3 @@
-import axios from "axios";
-import { API_BASE_URL } from "../api-url";
-import { AUTH_ENDPOINTS } from "./auth-urls";
-
 export interface GoogleConsentUrlResponse {
   redirect_url: string;
 }
@@ -9,25 +5,26 @@ export interface GoogleConsentUrlError {
   error: string;
   details?: string;
 }
+
 /**
- * Get Google OAuth consent URL
- * @returns {Promise<GoogleConsentUrlResponse>} A promise with the redirect_url string
- * @throws {Error} When API returns an error or unexpected response
+ * Get Google OAuth consent URL via same-origin BFF (avoids CORS on mag-byte-api).
  */
 export async function getGoogleOAuthConsentUrl(): Promise<GoogleConsentUrlResponse> {
-  try {
-    const response = await axios.get<GoogleConsentUrlResponse>(
-      `${API_BASE_URL}${AUTH_ENDPOINTS.GOOGLE_LOGIN}`
-    );
-    if (response.data && response.data.redirect_url) {
-      return response.data;
-    } else {
-      throw new Error("Missing redirect_url in response");
-    }
-  } catch (err: unknown) {
-    if (axios.isAxiosError(err) && err.response?.data?.error) {
-      throw new Error(String(err.response.data.error));
-    }
-    throw new Error("Something went wrong — please try again.");
+  const response = await fetch("/api/auth/google/login", {
+    method: "GET",
+    credentials: "include",
+    cache: "no-store",
+  });
+
+  if (!response.ok) {
+    const body = (await response.json().catch(() => ({}))) as { error?: string };
+    throw new Error(body.error ?? "Something went wrong — please try again.");
   }
+
+  const data = (await response.json()) as GoogleConsentUrlResponse;
+  if (!data.redirect_url) {
+    throw new Error("Missing redirect_url in response");
+  }
+
+  return data;
 }
